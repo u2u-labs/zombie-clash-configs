@@ -1,0 +1,169 @@
+[
+  {
+    "name": "Small MedKit",
+    "type": "smallMedKit",
+    "continuousSpawn": true,
+    "cooldownActive": 30000,
+    "collider": {
+      "shapeType": 0,
+      "circle": {
+        "radius": 0.75
+      }
+    },
+    "effects": [
+      {
+        "delay": 0,
+        "aoe": null,
+        "animationTime": 0,
+        "knockBackForce": 0,
+        "statModifiers": [
+          {
+            "base": "MaxHp",
+            "key": "Hp",
+            "value": 0.15,
+            "math": "add"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Big MedKit",
+    "type": "bigMedKit",
+    "continuousSpawn": true,
+    "cooldownActive": 45000,
+    "collider": {
+      "shapeType": 0,
+      "circle": {
+        "radius": 0.75
+      }
+    },
+    "effects": [
+      {
+        "delay": 0,
+        "aoe": null,
+        "knockBackForce": 0,
+        "statModifiers": [
+          {
+            "base": "MaxHp",
+            "key": "Hp",
+            "value": 0.4,
+            "math": "add"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dynamite",
+    "type": "dynamite",
+    "continuousSpawn": true,
+    "cooldownActive": 30000,
+    "hits": 1,
+    "collider": {
+      "shapeType": 0,
+      "circle": {
+        "radius": 0.75
+      }
+    },
+    "effects": [
+      {
+        "delay": 0.6,
+        "knockBackForce": 0,
+        "aoe": {
+          "shapeType": 0,
+          "circle": {
+            "radius": 3.5
+          },
+          "sector": null,
+          "box": null
+        },
+        "statModifiers": [
+          {
+            "key": "Hp",
+            "value": -100,
+            "math": "add"
+          },
+          {
+            "key": "Endurance",
+            "value": -100,
+            "math": "add"
+          }
+        ]
+      },
+      {
+        "delay": 0.75,
+        "knockBackForce": 0,
+        "aoe": {
+          "shapeType": 0,
+          "circle": {
+            "radius": 6
+          },
+          "sector": null,
+          "box": null
+        },
+        "statModifiers": [
+          {
+            "key": "Hp",
+            "value": -100,
+            "math": "add"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spike Trap",
+    "type": "spikeTrap",
+    "continuousSpawn": false,
+    "cooldownActive": 1000,
+    "collider": {
+      "shapeType": 0,
+      "circle": {
+        "radius": 0.75
+      }
+    },
+    "effects": [
+      {
+        "interval": 1000,
+        "delay": 0,
+        "aoe": null,
+        "knockBackForce": 20,
+        "statModifiers": [
+          {
+            "key": "Hp",
+            "value": -100,
+            "math": "add"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vertical Spike Trap",
+    "type": "spikeTrapVertical",
+    "continuousSpawn": false,
+    "cooldownActive": 1000,
+    "collider": {
+      "shapeType": 0,
+      "circle": {
+        "radius": 0.75
+      }
+    },
+    "effects": [
+      {
+        "delay": 0,
+        "aoe": null,
+        "interval": 1000,
+        "knockBackForce": 20,
+        "statModifiers": [
+          {
+            "key": "Hp",
+            "value": -150,
+            "math": "add"
+          }
+        ]
+      }
+    ]
+  }
+]

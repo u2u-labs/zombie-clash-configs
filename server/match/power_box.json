@@ -1,0 +1,78 @@
+{
+  "powerBox": {
+    "continuousSpawn": true,
+    "cooldownActive": 40000,
+    "coreSpawnRadius": 1,
+    "collider": {
+      "shapeType": 0,
+      "circle": {
+        "radius": 1.135
+      }
+    },
+    "upgrades": [
+      {
+        "name": "Small Power Box",
+        "hits": 3,
+        "minPoint": 3,
+        "maxPoint": 6
+      },
+      {
+        "name": "Medium Power Box",
+        "hits": 4,
+        "minPoint": 7,
+        "maxPoint": 10
+      },
+      {
+        "name": "Big Power Box",
+        "hits": 5,
+        "minPoint": 11,
+        "maxPoint": 14
+      },
+      {
+        "name": "Mega Power Box",
+        "hits": 6,
+        "minPoint": 15,
+        "maxPoint": 20
+      }
+    ]
+  },
+  "powerCore": {
+    "collider": {
+      "shapeType": 0,
+      "circle": {
+        "radius": 1.5
+      }
+    },
+    "baseEffects": [
+      {
+        "key": "MaxHp",
+        "value": 5,
+        "math": "add"
+      },
+      {
+        "key": "Hp",
+        "value": 5,
+        "math": "add"
+      },
+      {
+        "key": "Damage",
+        "value": 1,
+        "math": "add"
+      }
+    ],
+    "upgrades": [
+      {
+        "color": "green",
+        "powerPoint": 1
+      },
+      {
+        "color": "blue",
+        "powerPoint": 3
+      },
+      {
+        "color": "orange",
+        "powerPoint": 10
+      }
+    ]
+  }
+}

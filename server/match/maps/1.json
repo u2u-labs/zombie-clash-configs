@@ -1,0 +1,913 @@
+{
+  "id": 1,
+  "mode": "solo",
+  "leaderboardId": "solo",
+  "name": "Free For All",
+  "maxPlayers": 8,
+  "maxKills": 20,
+  "matchTime": 3600000,
+  "bounds": [
+    {
+      "x": -60,
+      "y": 0,
+      "z": -60
+    },
+    {
+      "x": 60,
+      "y": 0,
+      "z": -60
+    },
+    {
+      "x": -60,
+      "y": 0,
+      "z": 80
+    },
+    {
+      "x": 60,
+      "y": 0,
+      "z": 80
+    }
+  ],
+  "upgradePhases": [
+    {
+      "label": "Initial phase",
+      "start": 0,
+      "hyperWeapon": false,
+      "powerBox": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "Upgrade phase 1",
+      "start": 60000,
+      "hyperWeapon": false,
+      "powerBox": [
+        0.5,
+        0.5,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "Upgrade phase 2",
+      "start": 120000,
+      "hyperWeapon": false,
+      "powerBox": [
+        0.25,
+        0.5,
+        0.25,
+        0
+      ]
+    },
+    {
+      "label": "Upgrade phase 3",
+      "start": 180000,
+      "hyperWeapon": false,
+      "powerBox": [
+        0,
+        0.4,
+        0.5,
+        0.1
+      ]
+    },
+    {
+      "label": "Upgrade phase 4",
+      "start": 2400000,
+      "powerBox": [
+        0,
+        0,
+        0.75,
+        0.25
+      ]
+    },
+    {
+      "label": "Upgrade phase 5",
+      "start": 300000,
+      "powerBox": [
+        0,
+        0,
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "players": {
+    "presets": [
+      {
+        "index": 0,
+        "position": {
+          "x": 37.65961,
+          "y": 1.25,
+          "z": -17.2283516
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 1,
+        "position": {
+          "x": 19.1900444,
+          "y": 1.25,
+          "z": 49.76186
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 2,
+        "position": {
+          "x": 11.6769066,
+          "y": 1.25,
+          "z": 51.77499
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 3,
+        "position": {
+          "x": -38.115387,
+          "y": 1.25,
+          "z": 36.0177765
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 4,
+        "position": {
+          "x": -43.7463074,
+          "y": 1.25,
+          "z": 12.2708206
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 5,
+        "position": {
+          "x": -28.19551,
+          "y": 1.25,
+          "z": 8.83605
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 6,
+        "position": {
+          "x": 4.90673828,
+          "y": 1.25,
+          "z": -29.4987125
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 7,
+        "position": {
+          "x": -9.900632,
+          "y": 1.25,
+          "z": -32.8516
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 8,
+        "position": {
+          "x": 0.9748335,
+          "y": 1.25,
+          "z": 24.8115349
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 9,
+        "position": {
+          "x": -22.5466366,
+          "y": 1.25,
+          "z": 28.55191
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 10,
+        "position": {
+          "x": -53.4921455,
+          "y": 1.25,
+          "z": 42.1510963
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 11,
+        "position": {
+          "x": 1.815691,
+          "y": 1.25,
+          "z": 51.85512
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 12,
+        "position": {
+          "x": 25.8485374,
+          "y": 1.25,
+          "z": 37.7290039
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 13,
+        "position": {
+          "x": 12.0921574,
+          "y": 1.25,
+          "z": -48.4442139
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 14,
+        "position": {
+          "x": 31.7092972,
+          "y": 1.25,
+          "z": -31.9221039
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 15,
+        "position": {
+          "x": -22.4916782,
+          "y": 1.25,
+          "z": 64.95671
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      }
+    ],
+    "maxFlexRespawnReduction": 2500,
+    "baseRespawnTime": 7500
+  },
+  "powerBox": {
+    "presets": [
+      {
+        "index": 0,
+        "position": {
+          "x": -6.4748354,
+          "y": 0.0,
+          "z": -15.2852554
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 1,
+        "position": {
+          "x": -18.3108864,
+          "y": 0.0,
+          "z": -38.28461
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 2,
+        "position": {
+          "x": -8.230755,
+          "y": 0.0,
+          "z": -45.7439
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 3,
+        "position": {
+          "x": 5.30007935,
+          "y": 0.0,
+          "z": -50.9799957
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 4,
+        "position": {
+          "x": -6.25175953,
+          "y": 0.0,
+          "z": -9.671635
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 5,
+        "position": {
+          "x": 10.6823673,
+          "y": 0.0,
+          "z": 10.4975967
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 6,
+        "position": {
+          "x": 23.5908623,
+          "y": 0.0,
+          "z": -12.3605671
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 7,
+        "position": {
+          "x": 38.8000641,
+          "y": 0.0,
+          "z": -31.00367
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 8,
+        "position": {
+          "x": 41.31154,
+          "y": 0.0,
+          "z": -29.553669
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 9,
+        "position": {
+          "x": 21.0429344,
+          "y": 0.0,
+          "z": 37.5525627
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 10,
+        "position": {
+          "x": 0.322166443,
+          "y": 1.46,
+          "z": 44.64197
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 11,
+        "position": {
+          "x": -2.1041832,
+          "y": 0.0,
+          "z": 68.64453
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 12,
+        "position": {
+          "x": -27.87917,
+          "y": 0.0,
+          "z": 35.2881241
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 13,
+        "position": {
+          "x": -29.7290039,
+          "y": 0.0,
+          "z": 11.9921379
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 14,
+        "position": {
+          "x": -46.225956,
+          "y": 0.0,
+          "z": 5.065693
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 15,
+        "position": {
+          "x": -15.9282045,
+          "y": 0.0,
+          "z": 11.5884552
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 16,
+        "position": {
+          "x": 36.3999863,
+          "y": 4.22,
+          "z": 14.953373
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      {
+        "index": 17,
+        "position": {
+          "x": 37.7852631,
+          "y": 2.0,
+          "z": -45.4459763
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      }
+    ],
+    "initialSpawn": 10,
+    "powerCoreUpgrades": [
+      0,
+      1
+    ],
+    "overrideGlobal": ""
+  },
+  "portals": [
+    {
+      "entry": {
+        "position": {
+          "x": 10.25,
+          "y": 0.0,
+          "z": -26.26
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "collider": {
+          "shapeType": 0,
+          "circle": {
+            "radius": 2.0
+          }
+        }
+      },
+      "exit": {
+        "position": {
+          "x": 17.991,
+          "y": 3.5,
+          "z": -39.701
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "collider": {
+          "shapeType": 0,
+          "circle": {
+            "radius": 2.0
+          }
+        }
+      }
+    },
+    {
+      "entry": {
+        "position": {
+          "x": 38.208,
+          "y": 0.0,
+          "z": -0.423
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "collider": {
+          "shapeType": 0,
+          "circle": {
+            "radius": 2.0
+          }
+        }
+      },
+      "exit": {
+        "position": {
+          "x": 28.241,
+          "y": 3.5,
+          "z": 17.834
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "collider": {
+          "shapeType": 0,
+          "circle": {
+            "radius": 2.0
+          }
+        }
+      }
+    }
+  ],
+  "pitfalls": [
+    {
+      "id": "pitfall-0",
+      "position": {
+        "x": 20.3296413,
+        "y": 0.0,
+        "z": -8.305967
+      },
+      "collider": {
+        "shapeType": 1,
+        "rectangle": {
+          "center": {
+            "x": 20.3296413,
+            "y": 0.0,
+            "z": -8.305967
+          },
+          "width": 4.65,
+          "height": 6.0,
+          "rotation": {
+            "x": 0.0,
+            "y": 150.0,
+            "z": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "pitfall-1",
+      "position": {
+        "x": -26.8142471,
+        "y": 0.0,
+        "z": 19.86763
+      },
+      "collider": {
+        "shapeType": 1,
+        "rectangle": {
+          "center": {
+            "x": -26.8142471,
+            "y": 0.0,
+            "z": 19.86763
+          },
+          "width": 4.55,
+          "height": 4.85,
+          "rotation": {
+            "x": 0.0,
+            "y": 150.0,
+            "z": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "pitfall-2",
+      "position": {
+        "x": -29.3105354,
+        "y": 0.0,
+        "z": 23.113327
+      },
+      "collider": {
+        "shapeType": 1,
+        "rectangle": {
+          "center": {
+            "x": -29.3105354,
+            "y": 0.0,
+            "z": 23.113327
+          },
+          "width": 5.5,
+          "height": 2.5,
+          "rotation": {
+            "x": 0.0,
+            "y": 150.0,
+            "z": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "pitfall-3",
+      "position": {
+        "x": -56.77956,
+        "y": 0.0,
+        "z": 34.677063
+      },
+      "collider": {
+        "shapeType": 1,
+        "rectangle": {
+          "center": {
+            "x": -56.77956,
+            "y": 0.0,
+            "z": 34.677063
+          },
+          "width": 7.0,
+          "height": 10.0,
+          "rotation": {
+            "x": 0.0,
+            "y": 150.0,
+            "z": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "pitfall-4",
+      "position": {
+        "x": -34.85285,
+        "y": 0.0,
+        "z": 61.75289
+      },
+      "collider": {
+        "shapeType": 1,
+        "rectangle": {
+          "center": {
+            "x": -34.85285,
+            "y": 0.0,
+            "z": 61.75289
+          },
+          "width": 15.0,
+          "height": 10.0,
+          "rotation": {
+            "x": 0.0,
+            "y": 150.0,
+            "z": 0.0
+          }
+        }
+      }
+    },
+    {
+      "id": "pitfall-5",
+      "position": {
+        "x": -23.7885342,
+        "y": 0.0,
+        "z": 13.5489445
+      },
+      "collider": {
+        "shapeType": 1,
+        "rectangle": {
+          "center": {
+            "x": -23.7885342,
+            "y": 0.0,
+            "z": 13.5489445
+          },
+          "width": 5.5,
+          "height": 7.8,
+          "rotation": {
+            "x": 0.0,
+            "y": 150.0,
+            "z": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "objects": [
+    {
+      "type": "smallMedKit",
+      "spawnDelay": 15000,
+      "presets": [
+        {
+          "index": 0,
+          "position": {
+            "x": 18.6147327,
+            "y": 0.0,
+            "z": 25.7583351
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 150.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 1,
+          "position": {
+            "x": -16.833643,
+            "y": 0.0,
+            "z": -21.84327
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 150.0,
+            "z": 0.0
+          }
+        }
+      ],
+      "initialSpawn": 1,
+      "overrideGlobal": ""
+    },
+    {
+      "type": "bigMedKit",
+      "spawnDelay": 15000,
+      "presets": [
+        {
+          "index": 0,
+          "position": {
+            "x": 15.2828484,
+            "y": 0.0,
+            "z": 1.02933121
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 150.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 1,
+          "position": {
+            "x": -21.6004868,
+            "y": 0.0,
+            "z": 38.9131241
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 150.0,
+            "z": 0.0
+          }
+        }
+      ],
+      "initialSpawn": 1,
+      "overrideGlobal": ""
+    },
+    {
+      "type": "dynamite",
+      "presets": [
+        {
+          "index": 0,
+          "position": {
+            "x": -35.52212,
+            "y": 0.0,
+            "z": 52.5260963
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 1,
+          "position": {
+            "x": -5.52211428,
+            "y": 0.0,
+            "z": 0.5645828
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 2,
+          "position": {
+            "x": 22.7410316,
+            "y": 0.0,
+            "z": -37.38861
+          },
+          "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ],
+      "initialSpawn": 3,
+      "overrideGlobal": ""
+    },
+    {
+      "type": "spikeTrapVertical",
+      "presets": [],
+      "initialSpawn": 0,
+      "overrideGlobal": ""
+    },
+    {
+      "type": "spikeTrap",
+      "presets": [],
+      "initialSpawn": 0,
+      "overrideGlobal": ""
+    }
+  ]
+}
