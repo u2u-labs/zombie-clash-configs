@@ -1,0 +1,4562 @@
+[
+  {
+    "name": "Battle Bull",
+    "heroType": "buster",
+    "type": "Hat",
+    "modelId": 1,
+    "description": "A powerful hat for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/32a44b69-be1b-4b0d-bdfe-920742150022-Buster_Hat01.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Field Fury",
+    "heroType": "buster",
+    "type": "Hat",
+    "modelId": 2,
+    "description": "A powerful hat for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/c9ec2209-ddbc-42d0-8ff3-5190142b1710-Buster_Hat02.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Highway rider",
+    "heroType": "buster",
+    "type": "Hat",
+    "modelId": 3,
+    "description": "A powerful hat for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/a354d60b-10d0-4da9-b2c6-6f68490f8852-Buster_Hat03.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Robo Head",
+    "heroType": "buster",
+    "type": "Hat",
+    "modelId": 4,
+    "description": "A powerful hat for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/79cba618-8729-4ea6-822d-c8f1380e87cd-Buster_Hat04.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Big Bad Bunny",
+    "heroType": "buster",
+    "type": "Hat",
+    "modelId": 5,
+    "description": "A powerful hat for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/631dde4f-d1e9-43e1-9d4c-62206b166a2a-Buster_Hat05.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Daddy Shark",
+    "heroType": "buster",
+    "type": "Hat",
+    "modelId": 6,
+    "description": "A powerful hat for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/36801766-eb9a-495c-9681-ae9eff583f8e-Buster_Hat06.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Street Mob",
+    "heroType": "buster",
+    "type": "Hat",
+    "modelId": 7,
+    "description": "A powerful hat for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/1c4664d0-b19a-4953-909d-2cf22f39f995-Buster_Hat07.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Defending Champion",
+    "heroType": "buster",
+    "type": "Hat",
+    "modelId": 8,
+    "description": "A powerful hat for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/b4265818-0566-474f-9b07-af3c96761280-Buster_Hat08.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Battle Bull",
+    "heroType": "buster",
+    "type": "Skin",
+    "modelId": 1,
+    "description": "A powerful skin for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/1b6b174c-d0f3-464d-9a01-c24251afc305-Buster_Skin01.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Field Fury",
+    "heroType": "buster",
+    "type": "Skin",
+    "modelId": 2,
+    "description": "A powerful skin for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/d4351184-2f9b-4ad4-8aaa-942d12972b9a-Buster_Skin02.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Highway Rider",
+    "heroType": "buster",
+    "type": "Skin",
+    "modelId": 3,
+    "description": "A powerful skin for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/c1a7dd2b-e64e-46a9-8811-eefd769101dd-Buster_Skin03.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Robo Head",
+    "heroType": "buster",
+    "type": "Skin",
+    "modelId": 4,
+    "description": "A powerful skin for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/e346e5f9-3572-4241-b62d-a597f7db627f-Buster_Skin04.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Big Bad Bunny",
+    "heroType": "buster",
+    "type": "Skin",
+    "modelId": 5,
+    "description": "A powerful skin for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/6efd8bd3-59c5-47a3-b3bf-068f0ffd1cd1-Buster_Skin05.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Daddy Shark",
+    "heroType": "buster",
+    "type": "Skin",
+    "modelId": 6,
+    "description": "A powerful skin for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/0f969a79-ac42-40fd-9269-9bb266233819-Buster_Skin06.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Street Mob",
+    "heroType": "buster",
+    "type": "Skin",
+    "modelId": 7,
+    "description": "A powerful skin for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/fa694189-82c8-433d-9e44-f050d536b5ef-Buster_Skin07.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Defending Champion",
+    "heroType": "buster",
+    "type": "Skin",
+    "modelId": 8,
+    "description": "A powerful skin for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/b4a0e4f9-eb2a-4c82-a6b9-19e71b19b5c9-Buster_Skin08.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Battle Bull",
+    "heroType": "buster",
+    "type": "Weapon",
+    "modelId": 1,
+    "description": "A powerful weapon for hero buster",
+    "image": "",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Field Fury",
+    "heroType": "buster",
+    "type": "Weapon",
+    "modelId": 2,
+    "description": "A powerful weapon for hero buster",
+    "image": "",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Highway Rider",
+    "heroType": "buster",
+    "type": "Weapon",
+    "modelId": 3,
+    "description": "A powerful weapon for hero buster",
+    "image": "",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Robo Head",
+    "heroType": "buster",
+    "type": "Weapon",
+    "modelId": 4,
+    "description": "A powerful weapon for hero buster",
+    "image": "",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Big Bad Bunny",
+    "heroType": "buster",
+    "type": "Weapon",
+    "modelId": 5,
+    "description": "A powerful weapon for hero buster",
+    "image": "",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Daddy Shark",
+    "heroType": "buster",
+    "type": "Weapon",
+    "modelId": 6,
+    "description": "A powerful weapon for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/ced04f65-51ff-4c02-af78-a9131493f543-Buster_Weapon06.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Street Mob",
+    "heroType": "buster",
+    "type": "Weapon",
+    "modelId": 7,
+    "description": "A powerful weapon for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/1a840abc-e255-4fcd-beda-9c2bce5fbc5f-Buster_Weapon07.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Defending Champion",
+    "heroType": "buster",
+    "type": "Weapon",
+    "modelId": 8,
+    "description": "A powerful weapon for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/f851ec4d-73a9-4c1f-8421-223a09d3f0e6-Buster_Weapon08.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Garden ELf",
+    "heroType": "keda",
+    "type": "Hat",
+    "modelId": 1,
+    "description": "A powerful hat for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/f81ea967-c773-448a-9ff1-71f9b4db23f6-Keda_hat01.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Mad Killer",
+    "heroType": "keda",
+    "type": "Hat",
+    "modelId": 2,
+    "description": "A powerful hat for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/785e4ad0-f75e-476d-9930-153de397822b-Keda_hat02.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Pirate",
+    "heroType": "keda",
+    "type": "Hat",
+    "modelId": 3,
+    "description": "A powerful hat for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/ea70d5c3-b426-47e9-80e9-153ae2f51582-Keda_hat03.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Speed Robber",
+    "heroType": "keda",
+    "type": "Hat",
+    "modelId": 4,
+    "description": "A powerful hat for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/49c60398-dc6e-4101-a1bf-24b18d0a9ece-Keda_hat04.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Beach Assassin",
+    "heroType": "keda",
+    "type": "Hat",
+    "modelId": 5,
+    "description": "A powerful hat for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/601904fa-a941-43e7-b80a-dc5ae3683819-Keda_hat05.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Forest Bandit",
+    "heroType": "keda",
+    "type": "Hat",
+    "modelId": 6,
+    "description": "A powerful hat for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/02d2b892-5820-449e-80c5-5795ed4df332-Keda_hat06.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Shadow Hunter",
+    "heroType": "keda",
+    "type": "Hat",
+    "modelId": 7,
+    "description": "A powerful hat for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/5e0903ce-acc5-42d5-ba4d-cdcaf72be430-Keda_hat07.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Garden Elf",
+    "heroType": "keda",
+    "type": "Skin",
+    "modelId": 1,
+    "description": "A powerful skin for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/ab58bb2a-93c5-405d-b061-938bac391f61-Keda_skin01.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Mad Killer",
+    "heroType": "keda",
+    "type": "Skin",
+    "modelId": 2,
+    "description": "A powerful skin for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/6dda9f22-af34-4a99-9785-b5938b72e1c3-Keda_skin02.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Pirate",
+    "heroType": "keda",
+    "type": "Skin",
+    "modelId": 3,
+    "description": "A powerful skin for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/199d4d29-aef6-4d1c-8bda-039c577d24f5-Keda_skin03.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Speed Robber",
+    "heroType": "keda",
+    "type": "Skin",
+    "modelId": 4,
+    "description": "A powerful skin for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/93c0b6fb-6ac6-4fde-9e2e-7b8cda35ab27-Keda_skin04.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Beach Assassin",
+    "heroType": "keda",
+    "type": "Skin",
+    "modelId": 5,
+    "description": "A powerful skin for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/74a2642a-8b44-4483-99a3-b7f4f2318f1a-Keda_skin05.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Forest Bandit",
+    "heroType": "keda",
+    "type": "Skin",
+    "modelId": 6,
+    "description": "A powerful skin for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/30b278c7-17c0-4fe6-9ce2-969d2c581827-Keda_skin06.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Shadow Hunter",
+    "heroType": "keda",
+    "type": "Skin",
+    "modelId": 7,
+    "description": "A powerful skin for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/df8cd15d-14b4-4634-9a8f-d721d22fd5aa-Keda_skin07.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Garden Elf",
+    "heroType": "keda",
+    "type": "Weapon",
+    "modelId": 1,
+    "description": "A powerful weapon for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/e5369019-6b99-4ae8-bf65-40bb8abc53f0-Keda_weapon01.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Mad Killer",
+    "heroType": "keda",
+    "type": "Weapon",
+    "modelId": 2,
+    "description": "A powerful weapon for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/7fad23fc-4050-4463-985e-570b730e09a4-Keda_weapon02.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Pirate",
+    "heroType": "keda",
+    "type": "Weapon",
+    "modelId": 3,
+    "description": "A powerful weapon for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/7b0560a1-8a1e-463e-b69f-576033286b53-Keda_weapon03.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Speed Robber",
+    "heroType": "keda",
+    "type": "Weapon",
+    "modelId": 4,
+    "description": "A powerful weapon for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/b5cd9b83-a389-4142-ad79-2b996a44e9a2-Keda_weapon04.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Beach Assassin",
+    "heroType": "keda",
+    "type": "Weapon",
+    "modelId": 5,
+    "description": "A powerful weapon for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/cd817d27-7d17-4bb1-87ae-53e25a09ea83-Keda_weapon05.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Forest Bandit",
+    "heroType": "keda",
+    "type": "Weapon",
+    "modelId": 6,
+    "description": "A powerful weapon for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/165ea47f-735c-4233-8bc3-cd713380600d-Keda_weapon06.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Shadow Hunter",
+    "heroType": "keda",
+    "type": "Weapon",
+    "modelId": 7,
+    "description": "A powerful weapon for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/8accba07-4226-4df3-9593-0d39e11c1392-Keda_weapon07.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "City Scout",
+    "heroType": "lucas",
+    "type": "Hat",
+    "modelId": 1,
+    "description": "A powerful hat for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/eed26cf6-225e-4923-aeab-87fd383599ac-LUCAS_HAT01.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "The Player",
+    "heroType": "lucas",
+    "type": "Hat",
+    "modelId": 2,
+    "description": "A powerful hat for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/c9eb567a-ecc1-4880-893b-639a9fe9d6e1-LUCAS_HAT02.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Antarctica Sniper",
+    "heroType": "lucas",
+    "type": "Hat",
+    "modelId": 3,
+    "description": "A powerful hat for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/3e883ae2-59c0-4e12-8370-df8b8d849564-LUCAS_HAT03.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Northern Wind",
+    "heroType": "lucas",
+    "type": "Hat",
+    "modelId": 4,
+    "description": "A powerful hat for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/b37d7f43-63d4-4f54-9bbf-09364c3ecde8-LUCAS_HAT04.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Desert Rider",
+    "heroType": "lucas",
+    "type": "Hat",
+    "modelId": 5,
+    "description": "A powerful hat for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/97037286-0c07-406c-81a3-79c22704df98-LUCAS_HAT05.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Combat Pilot",
+    "heroType": "lucas",
+    "type": "Hat",
+    "modelId": 6,
+    "description": "A powerful hat for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/8db2db6b-6967-4817-ba83-5f5191a42e0e-LUCAS_Hat06.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Hawaiian Breeze",
+    "heroType": "lucas",
+    "type": "Hat",
+    "modelId": 7,
+    "description": "A powerful hat for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/0daa2a35-dbe7-4d38-8258-d1db42d90b2b-LUCAS_Hat07.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Apocalypse Bandit",
+    "heroType": "lucas",
+    "type": "Hat",
+    "modelId": 8,
+    "description": "A powerful hat for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/17e20202-6459-4b67-a102-3c587873cf3e-LUCAS_Hat08.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "City Scout",
+    "heroType": "lucas",
+    "type": "Skin",
+    "modelId": 1,
+    "description": "A powerful skin for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/92877ef7-8fc4-4615-8a2b-44f537bfdee1-LUCAS_Skin01.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "The Player",
+    "heroType": "lucas",
+    "type": "Skin",
+    "modelId": 2,
+    "description": "A powerful skin for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/145ad7e1-0066-4e6d-a1f6-6744a5d7eac8-LUCAS_Skin02.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Antarctica Sniper",
+    "heroType": "lucas",
+    "type": "Skin",
+    "modelId": 3,
+    "description": "A powerful skin for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/8a0b4338-7ff5-4f08-bf34-60185ccc7d52-LUCAS_Skin03.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Northern Wind",
+    "heroType": "lucas",
+    "type": "Skin",
+    "modelId": 4,
+    "description": "A powerful skin for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/b3628771-0bbe-44b1-9eea-37643639c7cb-LUCAS_Skin04.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Desert Rider",
+    "heroType": "lucas",
+    "type": "Skin",
+    "modelId": 5,
+    "description": "A powerful skin for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/eabcd9e4-20a3-46dd-bfe2-abab01101da6-LUCAS_Skin05.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Combat Pilot",
+    "heroType": "lucas",
+    "type": "Skin",
+    "modelId": 6,
+    "description": "A powerful skin for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/5eec019a-ee03-400d-922c-c575444c80a4-LUCAS_Skin06.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Hawaiian Breeze",
+    "heroType": "lucas",
+    "type": "Skin",
+    "modelId": 7,
+    "description": "A powerful skin for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/fa02ec8e-73c3-4764-a127-f49e98557d89-LUCAS_Skin07.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Apocalypse Bandit",
+    "heroType": "lucas",
+    "type": "Skin",
+    "modelId": 8,
+    "description": "A powerful skin for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/4395bda8-81d4-43cc-b06b-572051bc8e82-LUCAS_Skin08.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "City Scout",
+    "heroType": "lucas",
+    "type": "Weapon",
+    "modelId": 1,
+    "description": "A powerful weapon for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/580df01b-6ab1-4c1d-b1c1-5d85166fed1e-LUCAS_Weapon01.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "The Player",
+    "heroType": "lucas",
+    "type": "Weapon",
+    "modelId": 2,
+    "description": "A powerful weapon for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/3b489fbc-4b38-4baa-a1fe-4cdfc24c1a7c-LUCAS_Weapon02.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Antarctica Sniper",
+    "heroType": "lucas",
+    "type": "Weapon",
+    "modelId": 3,
+    "description": "A powerful weapon for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/9435a486-1ce0-42d8-af28-4696a34bbd84-LUCAS_Weapon03.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Northern Wind",
+    "heroType": "lucas",
+    "type": "Weapon",
+    "modelId": 4,
+    "description": "A powerful weapon for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/980cce75-2d24-4779-9502-0f2be795986e-LUCAS_Weapon04.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Desert Rider",
+    "heroType": "lucas",
+    "type": "Weapon",
+    "modelId": 5,
+    "description": "A powerful weapon for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/97c4f35d-d594-4b48-bc4a-483f43f88335-LUCAS_Weapon05.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Combat Pilot",
+    "heroType": "lucas",
+    "type": "Weapon",
+    "modelId": 6,
+    "description": "A powerful weapon for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/f25de0ea-14fa-47b3-9a2f-9516310fdeef-LUCAS_Weapon06.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Hawaiian Breeze",
+    "heroType": "lucas",
+    "type": "Weapon",
+    "modelId": 7,
+    "description": "A powerful weapon for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/2193ab07-db1e-4f88-9fa8-7c47ee11caab-LUCAS_Weapon07.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Apocalypse Bandit",
+    "heroType": "lucas",
+    "type": "Weapon",
+    "modelId": 8,
+    "description": "A powerful weapon for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/b3b13693-1b0d-492c-b8d6-58e72392d49e-LUCAS_Weapon08.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Sky Captain",
+    "heroType": "pierre",
+    "type": "Hat",
+    "modelId": 1,
+    "description": "A powerful hat for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/6539aca9-9662-4959-86ad-cfa570a41395-PIERRE_Hat01.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Noble Composer",
+    "heroType": "pierre",
+    "type": "Hat",
+    "modelId": 2,
+    "description": "A powerful hat for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/e128acc4-1da6-40ed-9b70-6c11cad1e53f-PIERRE_Hat02.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Nolstagia Notes",
+    "heroType": "pierre",
+    "type": "Hat",
+    "modelId": 3,
+    "description": "A powerful hat for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/d224742e-1b80-442f-9680-9728119fee0c-PIERRE_Hat03.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Evil Genius",
+    "heroType": "pierre",
+    "type": "Hat",
+    "modelId": 4,
+    "description": "A powerful hat for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/48fb5d4e-92ad-44ec-9088-3dc15b348a95-PIERRE_Hat04.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Brain Wave",
+    "heroType": "pierre",
+    "type": "Hat",
+    "modelId": 5,
+    "description": "A powerful hat for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/62c5c45c-d9c9-49b5-aeb7-d6753c576b3b-PIERRE_Hat05.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Sea Explorer",
+    "heroType": "pierre",
+    "type": "Hat",
+    "modelId": 6,
+    "description": "A powerful hat for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/29f7848d-af78-4723-87e9-3e60b9dd2c65-PIERRE_Hat06.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Blood Lord",
+    "heroType": "pierre",
+    "type": "Hat",
+    "modelId": 7,
+    "description": "A powerful hat for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/eeb05d9d-71f0-4fae-93f0-e834f1f8a15f-PIERRE_Hat07.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "The Great Conductor",
+    "heroType": "pierre",
+    "type": "Hat",
+    "modelId": 8,
+    "description": "A powerful hat for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/f523a1eb-002b-4c39-aff7-7ccac12a19fa-PIERRE_Hat08.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Sky Captain",
+    "heroType": "pierre",
+    "type": "Skin",
+    "modelId": 1,
+    "description": "A powerful skin for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/ffe4be6d-ffd8-46f8-a985-5a2973e22150-PIERRE_Skin01.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Noble Composer",
+    "heroType": "pierre",
+    "type": "Skin",
+    "modelId": 2,
+    "description": "A powerful skin for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/b88d8971-c146-412b-b821-383daf775d53-PIERRE_Skin02.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Nolstagia Notes",
+    "heroType": "pierre",
+    "type": "Skin",
+    "modelId": 3,
+    "description": "A powerful skin for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/c064eabd-636e-40d5-866c-dfa45de81f48-PIERRE_Skin03.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Evil Genius",
+    "heroType": "pierre",
+    "type": "Skin",
+    "modelId": 4,
+    "description": "A powerful skin for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/8e7940a8-1088-47f3-9dae-51ef3953b39f-PIERRE_Skin04.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Brain Wave",
+    "heroType": "pierre",
+    "type": "Skin",
+    "modelId": 5,
+    "description": "A powerful skin for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/1d832116-7651-4d3a-81be-9843cf2defc6-PIERRE_Skin05.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Sea Explorer",
+    "heroType": "pierre",
+    "type": "Skin",
+    "modelId": 6,
+    "description": "A powerful skin for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/09cef4f4-4f86-4466-99cd-8a77db210269-PIERRE_Skin06.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Blood Lord",
+    "heroType": "pierre",
+    "type": "Skin",
+    "modelId": 7,
+    "description": "A powerful skin for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/40cbc6e9-cf1b-44ac-a97b-de64853f5cbc-PIERRE_Skin07.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "The Great Conductor",
+    "heroType": "pierre",
+    "type": "Skin",
+    "modelId": 8,
+    "description": "A powerful skin for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/0c046103-3019-4a32-a4b4-cfb68efe2562-PIERRE_Skin08.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Sky Captain",
+    "heroType": "pierre",
+    "type": "Weapon",
+    "modelId": 1,
+    "description": "A powerful weapon for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/fa20e67f-0608-4ecc-985c-fcc9227bc631-PIERRE_Weapon01.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Noble Composer",
+    "heroType": "pierre",
+    "type": "Weapon",
+    "modelId": 2,
+    "description": "A powerful weapon for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/35f3bf46-3588-4973-ab72-d138498db32f-PIERRE_Weapon02.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Nolstagia Notes",
+    "heroType": "pierre",
+    "type": "Weapon",
+    "modelId": 3,
+    "description": "A powerful weapon for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/777e13b9-b95b-4329-bb1d-25205948a5ee-PIERRE_Weapon03.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Evil Genius",
+    "heroType": "pierre",
+    "type": "Weapon",
+    "modelId": 4,
+    "description": "A powerful weapon for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/b5897616-ca9a-45ea-902d-9468f6bab1cb-PIERRE_Weapon04.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Brain Wave",
+    "heroType": "pierre",
+    "type": "Weapon",
+    "modelId": 5,
+    "description": "A powerful weapon for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/76b23139-eca6-4f53-8b09-175c95840544-PIERRE_Weapon05.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Sea Explorer",
+    "heroType": "pierre",
+    "type": "Weapon",
+    "modelId": 6,
+    "description": "A powerful weapon for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/f970f9ff-60c7-4e31-a388-76f85a20f467-PIERRE_Weapon06.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Blood Lord",
+    "heroType": "pierre",
+    "type": "Weapon",
+    "modelId": 7,
+    "description": "A powerful weapon for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/73f725ea-5bd5-4d83-b676-62d9d3b43d60-PIERRE_Weapon07.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "The Great Conductor",
+    "heroType": "pierre",
+    "type": "Weapon",
+    "modelId": 8,
+    "description": "A powerful weapon for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/04ac405d-20f7-438e-ae61-83ad7aaf9031-PIERRE_Weapon08.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Crusader",
+    "heroType": "ronan",
+    "type": "Hat",
+    "modelId": 1,
+    "description": "A powerful hat for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/c88dffa0-f2d2-4d30-89a4-b24fd5ffb871-Ronan_hat01.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Persian Solder",
+    "heroType": "ronan",
+    "type": "Hat",
+    "modelId": 2,
+    "description": "A powerful hat for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/62fef3f0-b553-4ba5-9d39-fcf5e8fe4495-Ronan_hat02.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Master Chef",
+    "heroType": "ronan",
+    "type": "Hat",
+    "modelId": 3,
+    "description": "A powerful hat for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/22353080-fe9a-4d3a-9d40-63a7c1f11a0f-Ronan_hat03.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Golfer",
+    "heroType": "ronan",
+    "type": "Hat",
+    "modelId": 4,
+    "description": "A powerful hat for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/c9846837-c541-43af-9dad-b1cba97cb905-Ronan_hat04.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Street Guru",
+    "heroType": "ronan",
+    "type": "Hat",
+    "modelId": 5,
+    "description": "A powerful hat for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/be2944c3-2efa-413b-8c24-e35ab4ae414d-Ronan_hat05.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Pool Guardian",
+    "heroType": "ronan",
+    "type": "Hat",
+    "modelId": 6,
+    "description": "A powerful hat for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/acdb4777-ad4c-4003-b82f-8bcba9b5f175-Ronan_hat06.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "The Unchained",
+    "heroType": "ronan",
+    "type": "Hat",
+    "modelId": 7,
+    "description": "A powerful hat for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/6d0f108c-3f5d-4559-8e29-7949c3fff136-Ronan_hat07.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Crusader",
+    "heroType": "ronan",
+    "type": "Skin",
+    "modelId": 1,
+    "description": "A powerful skin for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/421cd2e2-b870-4278-8674-b95383fe9e82-Ronan_skin01.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Persian Solder",
+    "heroType": "ronan",
+    "type": "Skin",
+    "modelId": 2,
+    "description": "A powerful skin for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/afa75f68-a15d-499f-884b-dcb295bb28bd-Ronan_skin02.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Master Chef",
+    "heroType": "ronan",
+    "type": "Skin",
+    "modelId": 3,
+    "description": "A powerful skin for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/54b3d62f-781b-4c32-86e8-09cb3d7adf8e-Ronan_skin03.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Golfer",
+    "heroType": "ronan",
+    "type": "Skin",
+    "modelId": 4,
+    "description": "A powerful skin for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/cc0682e1-da35-4fb0-a30f-0ed9c8b3957a-Ronan_skin04.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Street Guru",
+    "heroType": "ronan",
+    "type": "Skin",
+    "modelId": 5,
+    "description": "A powerful skin for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/7b3eeb9b-e218-4260-815e-a908256140d0-Ronan_skin05.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Pool Guardian",
+    "heroType": "ronan",
+    "type": "Skin",
+    "modelId": 6,
+    "description": "A powerful skin for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/46bc76e6-b414-40b5-930f-1367412935ad-Ronan_skin06.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "The Unchained",
+    "heroType": "ronan",
+    "type": "Skin",
+    "modelId": 7,
+    "description": "A powerful skin for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/63c64d62-5f52-4b1f-9578-592cd8c2b60a-Ronan_skin07.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Crusader",
+    "heroType": "ronan",
+    "type": "Weapon",
+    "modelId": 1,
+    "description": "A powerful weapon for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/f1494703-7daf-4bd0-9729-879e20d6d568-Ronan_weapon01.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Persian Solder",
+    "heroType": "ronan",
+    "type": "Weapon",
+    "modelId": 2,
+    "description": "A powerful weapon for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/46ed9d28-850a-4749-9aed-5c82d1ff08a2-Ronan_weapon02.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Master Chef",
+    "heroType": "ronan",
+    "type": "Weapon",
+    "modelId": 3,
+    "description": "A powerful weapon for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/30ef8a2e-f673-4690-aa94-9cf8934bea48-Ronan_weapon03.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Golfer",
+    "heroType": "ronan",
+    "type": "Weapon",
+    "modelId": 4,
+    "description": "A powerful weapon for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/7b765585-24c1-40c3-ae5e-a26f86942f17-Ronan_weapon04.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Street Guru",
+    "heroType": "ronan",
+    "type": "Weapon",
+    "modelId": 5,
+    "description": "A powerful weapon for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/b73f207a-7c9f-4310-a33b-9db168517e0c-Ronan_weapon05.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Pool Guardian",
+    "heroType": "ronan",
+    "type": "Weapon",
+    "modelId": 6,
+    "description": "A powerful weapon for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/6b79ab1a-5668-4d56-b652-f3924b4d3320-Ronan_weapon06.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "The Unchained",
+    "heroType": "ronan",
+    "type": "Weapon",
+    "modelId": 7,
+    "description": "A powerful weapon for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/20466be8-7da9-4a5e-9044-dcff59241cd2-Ronan_weapon07.png",
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  }
+]

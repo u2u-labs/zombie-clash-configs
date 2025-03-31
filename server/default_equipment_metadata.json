@@ -1,0 +1,183 @@
+[
+  {
+    "name": "Default Buster Hat",
+    "heroType": "buster",
+    "type": "Hat",
+    "modelId": 0,
+    "description": "Default hat for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/87cd05de-9753-48b1-a31a-9bbb41aabef0-Buster_Hat00.png",
+    "isDefault": true,
+    "attributes": []
+  },
+  {
+    "name": "Default Buster skin",
+    "heroType": "buster",
+    "type": "Skin",
+    "modelId": 0,
+    "description": "Default skin for hero buster",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/546c09db-6518-4b25-b871-af6601ca62a6-Buster_Skin00.png",
+    "isDefault": true,
+    "attributes": []
+  },
+  {
+    "name": "Default Buster weapon",
+    "heroType": "buster",
+    "type": "Weapon",
+    "modelId": 0,
+    "description": "Default weapon for hero buster",
+    "image": "",
+    "isDefault": true,
+    "attributes": []
+  },
+  {
+    "name": "Default Keda hat",
+    "heroType": "keda",
+    "type": "Hat",
+    "modelId": 0,
+    "description": "Default hat for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/c664724a-f4d5-4ae9-a70d-57f99aa572d4-Keda_hat00.png",
+    "isDefault": true,
+    "attributes": []
+  },
+  {
+    "name": "Default Keda skin",
+    "heroType": "keda",
+    "type": "Skin",
+    "modelId": 0,
+    "description": "Default skin for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/2195f21e-d64b-490f-9fd4-8e8146732df1-Keda_skin00.png",
+    "isDefault": true,
+    "attributes": []
+  },
+  {
+    "name": "Default Keda weapon",
+    "heroType": "keda",
+    "type": "Weapon",
+    "modelId": 0,
+    "description": "Default weapon for hero keda",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/a01e0994-8a17-4a7d-bea4-5c2d8b582c39-Keda_weapon00.png",
+    "isDefault": true,
+    "attributes": []
+  },
+  {
+    "name": "Default Lucas hat",
+    "heroType": "lucas",
+    "type": "Hat",
+    "modelId": 0,
+    "description": "Default hat for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/d079e88a-aaf6-4ef4-8a3e-7dc346954433-LUCAS_HAT00.png",
+    "isDefault": true,
+    "attributes": []
+  },
+  {
+    "name": "Default Lucas skin",
+    "heroType": "lucas",
+    "type": "Skin",
+    "modelId": 0,
+    "description": "Default skin for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/d255256f-d54b-4562-9f8d-951744e94727-LUCAS_Skin00.png",
+    "isDefault": true,
+    "attributes": []
+  },
+  {
+    "name": "Default Lucas weapon",
+    "heroType": "lucas",
+    "type": "Weapon",
+    "modelId": 0,
+    "description": "Default weapon for hero lucas",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/47708718-1458-484e-a6fe-e3f99471ae04-LUCAS_Weapon00.png",
+    "isDefault": true,
+    "attributes": []
+  },
+  {
+    "name": "Default Pierre hat",
+    "heroType": "pierre",
+    "type": "Hat",
+    "modelId": 0,
+    "description": "Default hat for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/b8824d4c-ff91-479b-b3af-d631e1e0d82d-PIERRE_Hat00.png",
+    "isDefault": true,
+    "attributes": []
+  },
+  {
+    "name": "Default Pierre skin",
+    "heroType": "pierre",
+    "type": "Skin",
+    "modelId": 0,
+    "description": "Default skin for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/b8d678c1-0e3f-4c2d-a699-04eae7cc8f86-PIERRE_Skin00.png",
+    "isDefault": true,
+    "attributes": []
+  },
+  {
+    "name": "Default Pierre weapon",
+    "heroType": "pierre",
+    "type": "Weapon",
+    "modelId": 0,
+    "description": "Default weapon for hero pierre",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/deb6dc8d-c189-41dd-9caf-3c6081cd0420-PIERRE_Weapon00.png",
+    "isDefault": true,
+    "attributes": []
+  },
+  {
+    "name": "Default Ronan hat",
+    "heroType": "ronan",
+    "type": "Hat",
+    "modelId": 0,
+    "description": "Default hat for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/53338e2a-acef-4867-9bd9-db7c5d655382-Ronan_hat00.png",
+    "isDefault": true,
+    "attributes": [
+      {
+        "key": "hp",
+        "max": 60,
+        "min": 40,
+        "rate": 0.35
+      },
+      {
+        "key": "dashCoolDown",
+        "max": 500,
+        "min": 100,
+        "rate": 0.15
+      },
+      {
+        "key": "damage",
+        "max": 30,
+        "min": 20,
+        "rate": 0.35
+      },
+      {
+        "key": "moveSpeed",
+        "max": 2.5,
+        "min": 1,
+        "rate": 0.1
+      },
+      {
+        "key": "maxEPC",
+        "max": 3,
+        "min": 1,
+        "rate": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Default Ronan skin",
+    "heroType": "ronan",
+    "type": "Skin",
+    "modelId": 0,
+    "description": "Default skin for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/59ac1843-c161-4640-81f6-1c05ef1fcbb8-Ronan_skin00.png",
+    "isDefault": true,
+    "attributes": []
+  },
+  {
+    "name": "Default Ronan weapon",
+    "heroType": "ronan",
+    "type": "Weapon",
+    "modelId": 0,
+    "description": "Default weapon for hero ronan",
+    "image": "https://ug-assets-dev.s3.amazonaws.com/11c03771-abca-4bff-a70e-8b2ea1ff4ab8-Ronan_weapon00.png",
+    "isDefault": true,
+    "attributes": []
+  }
+]

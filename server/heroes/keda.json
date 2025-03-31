@@ -1,0 +1,218 @@
+{
+  "id": "keda",
+  "name": "Keda",
+  "class": "Assassin",
+  "description": "",
+  "collider": {
+    "shapeType": 0,
+    "circle": {
+      "radius": 1.4
+    }
+  },
+  "attributes": {
+    "maxHp": 940,
+    "maxEndurance": 100,
+    "enduranceRecoveryNeutral": 16,
+    "enduranceRecoveryInCombat": 8,
+    "hpPercentRecoveryNeutral": 0.13,
+    "hpPercentRecoveryOnKill": 0.1,
+    "baseDamage": 70,
+    "moveSpeed": 8,
+    "maxEpc": 30,
+    "size": 1
+  },
+  "dash": {
+    "unblockAble": true,
+    "duration": 600,
+    "distance": 7,
+    "neutralCooldown": 3000,
+    "combatCooldown": 6000,
+    "buffs": [
+      {
+        "type": "ambush",
+        "duration": 2500,
+        "interval": 0,
+        "triggerImmediately": false,
+        "negative": false,
+        "triggerCount": 1,
+        "reversible": true,
+        "statModifiers": [
+          {
+            "key": "MoveSpeed",
+            "value": 1.1,
+            "math": "mul"
+          }
+        ],
+        "comboSegments": [
+          {
+            "animationId": 3,
+            "detectRange": 9,
+            "isAmbush": true,
+            "isHeavyAttack": false,
+            "isRanged": false,
+            "pounceRange": 9.5,
+            "pounceDuration": 300,
+            "projectileId": null,
+            "fullAnimationTime": 1450,
+            "allowEarlyCancel": true,
+            "earlyCancelTime": 1187,
+            "pounceTime": 32,
+            "vfxs": [
+              {
+                "id": "keda_ambush",
+                "time": 0,
+                "duration": 800,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "follow": true
+              }
+            ],
+            "shapeType": 0,
+            "circle": {
+              "radius": 6
+            },
+            "comboHits": [
+              {
+                "damageMultiplier": 1.8,
+                "enduranceDamage": 5,
+                "dealDamageTime": 350,
+                "targetLockTime": 32
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "comboSegments": [
+    {
+      "animationId": 0,
+      "detectRange": 5,
+      "isHeavyAttack": false,
+      "isRanged": false,
+      "pounceRange": 3,
+      "pounceDuration": 160,
+      "pounceTime": 32,
+      "projectileId": null,
+      "fullAnimationTime": 945,
+      "allowEarlyCancel": true,
+      "earlyCancelTime": 565,
+      "vfxs": [
+        {
+          "id": "keda_combo_0",
+          "time": 0,
+          "duration": 700,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "follow": true
+        }
+      ],
+      "shapeType": 2,
+      "sector": {
+        "range": 4,
+        "angle": 180,
+        "angleOffset": 0
+      },
+      "comboHits": [
+        {
+          "damageMultiplier": 1,
+          "enduranceDamage": 5,
+          "dealDamageTime": 218,
+          "targetLockTime": 32
+        }
+      ]
+    },
+    {
+      "animationId": 1,
+      "detectRange": 5,
+      "isHeavyAttack": false,
+      "isRanged": false,
+      "pounceRange": 3,
+      "pounceDuration": 160,
+      "pounceTime": 32,
+      "projectileId": null,
+      "fullAnimationTime": 1201,
+      "allowEarlyCancel": true,
+      "earlyCancelTime": 671,
+      "vfxs": [
+        {
+          "id": "keda_combo_1",
+          "time": 0,
+          "duration": 700,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "follow": true
+        }
+      ],
+      "shapeType": 2,
+      "sector": {
+        "range": 4,
+        "angle": 180,
+        "angleOffset": 0
+      },
+      "comboHits": [
+        {
+          "damageMultiplier": 0.7,
+          "enduranceDamage": 5,
+          "dealDamageTime": 230,
+          "targetLockTime": 32
+        },
+        {
+          "damageMultiplier": 0.7,
+          "enduranceDamage": 5,
+          "dealDamageTime": 316,
+          "targetLockTime": 32
+        }
+      ]
+    },
+    {
+      "animationId": 2,
+      "detectRange": 5,
+      "isHeavyAttack": true,
+      "isRanged": false,
+      "pounceRange": 4,
+      "pounceDuration": 160,
+      "pounceTime": 32,
+      "projectileId": null,
+      "fullAnimationTime": 1213,
+      "allowEarlyCancel": true,
+      "earlyCancelTime": 1032,
+      "vfxs": [
+        {
+          "id": "keda_combo_2",
+          "time": 0,
+          "duration": 750,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "follow": true
+        }
+      ],
+      "shapeType": 2,
+      "sector": {
+        "range": 4,
+        "angle": 270,
+        "angleOffset": 0
+      },
+      "comboHits": [
+        {
+          "damageMultiplier": 2.2,
+          "enduranceDamage": 15,
+          "dealDamageTime": 326,
+          "targetLockTime": 32
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "pierre",
+  "name": "Pierre",
+  "class": "Mage",
+  "description": "",
+  "collider": {
+    "shapeType": 0,
+    "circle": {
+      "radius": 1.4
+    }
+  },
+  "pierreSpecial": {
+    "hpSacrifice": 50
+  },
+  "attributes": {
+    "maxHp": 920,
+    "maxEndurance": 100,
+    "enduranceRecoveryNeutral": 16,
+    "enduranceRecoveryInCombat": 8,
+    "hpPercentRecoveryNeutral": 0.13,
+    "hpPercentRecoveryOnKill": 0.1,
+    "baseDamage": 75,
+    "moveSpeed": 7.5,
+    "maxEpc": 30,
+    "size": 1
+  },
+  "dash": {
+    "unblockAble": true,
+    "duration": 600,
+    "distance": 7,
+    "neutralCooldown": 4000,
+    "combatCooldown": 8000
+  },
+  "comboSegments": [
+    {
+      "animationId": 0,
+      "detectRange": 5,
+      "isHeavyAttack": false,
+      "isRanged": false,
+      "pounceRange": 4,
+      "pounceDuration": 200,
+      "pounceTime": 32,
+      "projectileId": null,
+      "fullAnimationTime": 933,
+      "allowEarlyCancel": true,
+      "earlyCancelTime": 620,
+      "vfxs": [
+        {
+          "id": "pierre_combo_0",
+          "time": 0,
+          "duration": 800,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "follow": true
+        }
+      ],
+      "shapeType": 1,
+      "rectangle": {
+        "range": 5,
+        "width": 2.5,
+        "forwardOffset": 0
+      },
+      "comboHits": [
+        {
+          "damageMultiplier": 0.8,
+          "enduranceDamage": 4,
+          "dealDamageTime": 221,
+          "targetLockTime": 32
+        }
+      ]
+    },
+    {
+      "animationId": 1,
+      "detectRange": 5,
+      "isHeavyAttack": false,
+      "isRanged": false,
+      "pounceRange": 2,
+      "pounceDuration": 200,
+      "pounceTime": 32,
+      "projectileId": null,
+      "fullAnimationTime": 1167,
+      "allowEarlyCancel": true,
+      "earlyCancelTime": 650,
+      "vfxs": [
+        {
+          "id": "pierre_combo_1",
+          "time": 0,
+          "duration": 700,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "follow": true
+        }
+      ],
+      "shapeType": 2,
+      "sector": {
+        "range": 4,
+        "angle": 180,
+        "angleOffset": 0
+      },
+      "comboHits": [
+        {
+          "damageMultiplier": 1,
+          "enduranceDamage": 8,
+          "dealDamageTime": 156,
+          "targetLockTime": 32
+        }
+      ]
+    },
+    {
+      "animationId": 2,
+      "detectRange": 5,
+      "isHeavyAttack": true,
+      "isRanged": false,
+      "pounceRange": 4,
+      "pounceDuration": 200,
+      "pounceTime": 32,
+      "projectileId": null,
+      "fullAnimationTime": 1467,
+      "allowEarlyCancel": true,
+      "earlyCancelTime": 755,
+      "vfxs": [
+        {
+          "id": "pierre_combo_2",
+          "time": 0,
+          "duration": 850,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "follow": true
+        }
+      ],
+      "shapeType": 1,
+      "rectangle": {
+        "range": 7,
+        "width": 3,
+        "forwardOffset": -2
+      },
+      "comboHits": [
+        {
+          "damageMultiplier": 1.6,
+          "enduranceDamage": 12,
+          "dealDamageTime": 218,
+          "targetLockTime": 32
+        }
+      ]
+    },
+    {
+      "animationId": 3,
+      "detectRange": 5,
+      "isHeavyAttack": true,
+      "isRanged": false,
+      "pounceRange": 2,
+      "pounceDuration": 200,
+      "pounceTime": 32,
+      "projectileId": null,
+      "fullAnimationTime": 1362,
+      "allowEarlyCancel": true,
+      "earlyCancelTime": 1282,
+      "vfxs": [
+        {
+          "id": "pierre_combo_3",
+          "time": 0,
+          "duration": 1500,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "follow": false
+        }
+      ],
+      "shapeType": 0,
+      "circle": {
+        "range": 3,
+        "radius": 3.5
+      },
+      "comboHits": [
+        {
+          "damageMultiplier": 2,
+          "enduranceDamage": 20,
+          "dealDamageTime": 379,
+          "targetLockTime": 32
+        }
+      ],
+      "fxSpawners": [
+        {
+          "vfxId": "flameGround",
+          "interval": 250,
+          "duration": 2000,
+          "fixedDamage": 20,
+          "delay": 0,
+          "maxCount": 0,
+          "coolDown": 0,
+          "shapeType": 0,
+          "targetAllies": false,
+          "lockToTarget": false,
+          "circle": {
+            "radius": 3.5,
+            "range": 3
+          },
+          "effectCollider": {
+            "shapeType": 0,
+            "circle": {
+              "radius": 3.5
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

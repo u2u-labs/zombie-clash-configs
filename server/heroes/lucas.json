@@ -1,0 +1,219 @@
+{
+  "id": "lucas",
+  "name": "Lucas",
+  "class": "Support",
+  "description": "",
+  "collider": {
+    "shapeType": 0,
+    "circle": {
+      "radius": 1.4
+    }
+  },
+  "lucasSpecial": {
+    "damageRecoveryPercent": 0.4
+  },
+  "attributes": {
+    "maxHp": 1100,
+    "maxEndurance": 100,
+    "enduranceRecoveryNeutral": 16,
+    "enduranceRecoveryInCombat": 8,
+    "hpPercentRecoveryNeutral": 0.13,
+    "hpPercentRecoveryOnKill": 0.1,
+    "baseDamage": 60,
+    "moveSpeed": 7.2,
+    "maxEpc": 30,
+    "size": 1
+  },
+  "dash": {
+    "unblockAble": true,
+    "duration": 600,
+    "distance": 7,
+    "neutralCooldown": 4000,
+    "combatCooldown": 8000,
+    "vfxs": [
+      {
+        "id": "lucas_dash",
+        "time": 0,
+        "duration": 700,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "follow": true
+      }
+    ]
+  },
+  "comboSegments": [
+    {
+      "animationId": 0,
+      "detectRange": 8.5,
+      "isHeavyAttack": false,
+      "isRanged": false,
+      "pounceRange": 0,
+      "pounceDuration": 100,
+      "projectileId": null,
+      "fullAnimationTime": 1000,
+      "allowEarlyCancel": true,
+      "earlyCancelTime": 762,
+      "pounceTime": 16,
+      "vfxs": [
+        {
+          "id": "lucas_combo_0",
+          "time": 0,
+          "duration": 800,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "follow": true
+        }
+      ],
+      "shapeType": 1,
+      "rectangle": {
+        "range": 8.5,
+        "width": 2.25,
+        "forwardOffset": 0
+      },
+      "comboHits": [
+        {
+          "damageMultiplier": 1,
+          "enduranceDamage": 5,
+          "dealDamageTime": 170,
+          "targetLockTime": 64
+        }
+      ]
+    },
+    {
+      "animationId": 1,
+      "detectRange": 8.5,
+      "isHeavyAttack": false,
+      "isRanged": false,
+      "pounceRange": 1.25,
+      "pounceDuration": 100,
+      "projectileId": null,
+      "fullAnimationTime": 1433,
+      "allowEarlyCancel": true,
+      "earlyCancelTime": 1117,
+      "pounceTime": 16,
+      "vfxs": [
+        {
+          "id": "lucas_combo_1",
+          "time": 0,
+          "duration": 1300,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "follow": true
+        }
+      ],
+      "shapeType": 1,
+      "rectangle": {
+        "range": 8.5,
+        "width": 2.5,
+        "forwardOffset": 0
+      },
+      "comboHits": [
+        {
+          "damageMultiplier": 1.4,
+          "enduranceDamage": 10,
+          "dealDamageTime": 580,
+          "targetLockTime": 128
+        }
+      ]
+    },
+    {
+      "animationId": 2,
+      "detectRange": 8.5,
+      "isHeavyAttack": true,
+      "isRanged": false,
+      "pounceRange": 0.25,
+      "pounceDuration": 100,
+      "projectileId": null,
+      "fullAnimationTime": 1900,
+      "allowEarlyCancel": true,
+      "earlyCancelTime": 1689,
+      "pounceTime": 16,
+      "vfxs": [
+        {
+          "id": "lucas_combo_2",
+          "time": 0,
+          "duration": 1000,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "follow": true
+        }
+      ],
+      "shapeType": 0,
+      "circle": {
+        "range": 5,
+        "radius": 3
+      },
+      "comboHits": [
+        {
+          "damageMultiplier": 2.5,
+          "enduranceDamage": 25,
+          "targetLockTime": 256,
+          "dealDamageTime": 528
+        }
+      ],
+      "fxSpawners": [
+        {
+          "vfxId": "healingMine",
+          "interval": 0,
+          "duration": 5000,
+          "delay": 1000,
+          "fixedDamage": -150,
+          "maxCount": 1,
+          "coolDown": 9000,
+          "lockToTarget": true,
+          "segmentIndex": 2,
+          "targetAllies": true,
+          "shapeType": 0,
+          "circle": {
+            "radius": 3.5,
+            "range": 3
+          },
+          "effectCollider": {
+            "shapeType": 0,
+            "circle": {
+              "radius": 3.5
+            }
+          },
+          "aoe": {
+            "shapeType": 0,
+            "circle": {
+              "radius": 3.5
+            }
+          },
+          "buffs": [
+            {
+              "type": "normal",
+              "negative": false,
+              "duration": 4000,
+              "interval": 1000,
+              "statModifiers": [
+                {
+                  "key": "Hp",
+                  "value": 25,
+                  "math": "add"
+                },
+                {
+                  "key": "Endurance",
+                  "value": 5,
+                  "math": "add"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

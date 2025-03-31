@@ -1,0 +1,1921 @@
+{
+  "mode": "solo",
+  "rolls": [
+    {
+      "league": "bronze",
+      "key": 0,
+      "doubleStats": 0,
+      "tripleStats": 0
+    },
+    {
+      "league": "silver",
+      "key": 0,
+      "doubleStats": 0,
+      "tripleStats": 0
+    },
+    {
+      "league": "gold",
+      "key": 0.01,
+      "doubleStats": 0,
+      "tripleStats": 0
+    },
+    {
+      "league": "platinum",
+      "key": 0.02,
+      "doubleStats": 0.025,
+      "tripleStats": 0
+    },
+    {
+      "league": "diamond",
+      "key": 0.03,
+      "doubleStats": 0.025,
+      "tripleStats": 0
+    },
+    {
+      "league": "master",
+      "key": 0.04,
+      "doubleStats": 0.05,
+      "tripleStats": 0.025
+    },
+    {
+      "league": "grandmaster",
+      "key": 0.05,
+      "doubleStats": 0.05,
+      "tripleStats": 0.025
+    }
+  ],
+  "pools": [
+    {
+      "name": "poolA",
+      "rate": 0.8,
+      "series": [
+        {
+          "serie": 1,
+          "hero": "common",
+          "equipmentType": "common",
+          "name": "Loot box series 1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 2,
+          "hero": "common",
+          "equipmentType": "common",
+          "name": "Loot box series 2",
+          "items": [
+            {
+              "modelId": 5,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 3,
+          "hero": "common",
+          "equipmentType": "common",
+          "name": "Loot box series 3",
+          "items": [
+            {
+              "modelId": 2,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 4,
+          "hero": "common",
+          "equipmentType": "common",
+          "name": "Loot box series 4",
+          "items": [
+            {
+              "modelId": 3,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 5,
+          "hero": "common",
+          "equipmentType": "common",
+          "name": "Loot box series 5",
+          "items": [
+            {
+              "modelId": 6,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 6,
+          "hero": "common",
+          "equipmentType": "common",
+          "name": "Loot box series 6",
+          "items": [
+            {
+              "modelId": 7,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 7,
+          "hero": "common",
+          "equipmentType": "common",
+          "name": "Loot box series 7",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 8,
+          "hero": "common",
+          "equipmentType": "common",
+          "name": "Loot box series 8",
+          "items": [
+            {
+              "modelId": 2,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 9,
+          "hero": "common",
+          "equipmentType": "common",
+          "name": "Loot box series 9",
+          "items": [
+            {
+              "modelId": 3,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 10,
+          "hero": "common",
+          "equipmentType": "common",
+          "name": "Loot box series 10",
+          "items": [
+            {
+              "modelId": 2,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 11,
+          "hero": "common",
+          "equipmentType": "common",
+          "name": "Loot box series 11",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 12,
+          "hero": "common",
+          "equipmentType": "common",
+          "name": "Loot box series 12",
+          "items": [
+            {
+              "modelId": 8,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 13,
+          "hero": "common",
+          "equipmentType": "common",
+          "name": "Loot box series 13",
+          "items": [
+            {
+              "modelId": 7,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 14,
+          "hero": "common",
+          "equipmentType": "common",
+          "name": "Loot box series 14",
+          "items": [
+            {
+              "modelId": 5,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 15,
+          "hero": "common",
+          "equipmentType": "common",
+          "name": "Loot box series 15",
+          "items": [
+            {
+              "modelId": 5,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 1,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "poolB",
+      "rate": 0.2,
+      "series": [
+        {
+          "serie": 1,
+          "hero": "ronan",
+          "equipmentType": "Hat",
+          "name": "Ronan's Hat Collection #1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Hat",
+              "hero": "ronan",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 1,
+          "hero": "ronan",
+          "equipmentType": "Skin",
+          "name": "Ronan's Skin Collection #1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Skin",
+              "hero": "ronan",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 1,
+          "hero": "ronan",
+          "equipmentType": "Weapon",
+          "name": "Ronan's Weapon Collection #1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Weapon",
+              "hero": "ronan",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 1,
+          "hero": "buster",
+          "equipmentType": "Hat",
+          "name": "Buster's Hat Collection #1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Hat",
+              "hero": "buster",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 1,
+          "hero": "buster",
+          "equipmentType": "Skin",
+          "name": "Buster's Skin Collection #1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Skin",
+              "hero": "buster",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 1,
+          "hero": "buster",
+          "equipmentType": "Weapon",
+          "name": "Buster's Weapon Collection #1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Weapon",
+              "hero": "buster",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 1,
+          "hero": "keda",
+          "equipmentType": "Hat",
+          "name": "Keda's Hat Collection #1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Hat",
+              "hero": "keda",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 1,
+          "hero": "keda",
+          "equipmentType": "Skin",
+          "name": "Keda's Skin Collection #1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Skin",
+              "hero": "keda",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 1,
+          "hero": "keda",
+          "equipmentType": "Weapon",
+          "name": "Keda's Weapon Collection #1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Weapon",
+              "hero": "keda",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 1,
+          "hero": "pierre",
+          "equipmentType": "Hat",
+          "name": "Pierre's Hat Collection #1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Hat",
+              "hero": "pierre",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 1,
+          "hero": "pierre",
+          "equipmentType": "Skin",
+          "name": "Pierre's Skin Collection #1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Skin",
+              "hero": "pierre",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 1,
+          "hero": "pierre",
+          "equipmentType": "Weapon",
+          "name": "Pierre's Weapon Collection #1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Weapon",
+              "hero": "pierre",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 1,
+          "hero": "lucas",
+          "equipmentType": "Hat",
+          "name": "Lucas's Hat Collection #1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Hat",
+              "hero": "lucas",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 1,
+          "hero": "lucas",
+          "equipmentType": "Skin",
+          "name": "Lucas's Skin Collection #1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Skin",
+              "hero": "lucas",
+              "rate": 0.1111
+            }
+          ]
+        },
+        {
+          "serie": 1,
+          "hero": "lucas",
+          "equipmentType": "Weapon",
+          "name": "Lucas's Weapon Collection #1",
+          "items": [
+            {
+              "modelId": 1,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 2,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 3,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 4,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 5,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 6,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 7,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 8,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            },
+            {
+              "modelId": 9,
+              "equipmentType": "Weapon",
+              "hero": "lucas",
+              "rate": 0.1111
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

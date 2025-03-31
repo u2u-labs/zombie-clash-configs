@@ -1,0 +1,192 @@
+{
+  "id": "ronan",
+  "name": "Ronan",
+  "class": "Tanker",
+  "description": "",
+  "collider": {
+    "shapeType": 0,
+    "circle": {
+      "radius": 1.4
+    }
+  },
+  "attributes": {
+    "maxHp": 1360,
+    "maxEndurance": 100,
+    "enduranceRecoveryNeutral": 16,
+    "enduranceRecoveryInCombat": 8,
+    "hpPercentRecoveryNeutral": 0.13,
+    "hpPercentRecoveryOnKill": 0.1,
+    "baseDamage": 60,
+    "moveSpeed": 7.5,
+    "maxEpc": 30,
+    "size": 1
+  },
+  "dash": {
+    "unblockAble": true,
+    "duration": 600,
+    "distance": 7,
+    "neutralCooldown": 4000,
+    "combatCooldown": 8000
+  },
+  "comboSegments": [
+    {
+      "animationId": 0,
+      "detectRange": 5,
+      "isHeavyAttack": false,
+      "isRanged": false,
+      "pounceRange": 3,
+      "pounceDuration": 160,
+      "pounceTime": 300,
+      "projectileId": null,
+      "fullAnimationTime": 1233,
+      "allowEarlyCancel": true,
+      "earlyCancelTime": 720,
+      "vfxs": [
+        {
+          "id": "ronan_combo_0",
+          "time": 0,
+          "duration": 800,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "follow": true
+        }
+      ],
+      "shapeType": 2,
+      "sector": {
+        "range": 5,
+        "angle": 135,
+        "angleOffset": 0
+      },
+      "comboHits": [
+        {
+          "damageMultiplier": 1,
+          "enduranceDamage": 8,
+          "dealDamageTime": 414,
+          "targetLockTime": 32
+        }
+      ]
+    },
+    {
+      "animationId": 1,
+      "detectRange": 5,
+      "isHeavyAttack": false,
+      "isRanged": false,
+      "pounceRange": 3,
+      "pounceDuration": 160,
+      "pounceTime": 256,
+      "projectileId": null,
+      "fullAnimationTime": 1285,
+      "allowEarlyCancel": true,
+      "earlyCancelTime": 760,
+      "vfxs": [
+        {
+          "id": "ronan_combo_1",
+          "time": 0,
+          "duration": 900,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "follow": true
+        }
+      ],
+      "shapeType": 2,
+      "sector": {
+        "range": 5,
+        "angle": 225,
+        "angleOffset": 22.5
+      },
+      "comboHits": [
+        {
+          "damageMultiplier": 1,
+          "enduranceDamage": 8,
+          "dealDamageTime": 461,
+          "targetLockTime": 32
+        }
+      ]
+    },
+    {
+      "animationId": 2,
+      "detectRange": 5,
+      "isHeavyAttack": false,
+      "isRanged": false,
+      "pounceRange": 4.5,
+      "pounceDuration": 200,
+      "pounceTime": 256,
+      "projectileId": null,
+      "fullAnimationTime": 1205,
+      "allowEarlyCancel": true,
+      "earlyCancelTime": 870,
+      "vfxs": [
+        {
+          "id": "ronan_combo_2",
+          "time": 0,
+          "duration": 800,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "follow": true
+        }
+      ],
+      "shapeType": 0,
+      "circle": {
+        "range": 1.5,
+        "radius": 3
+      },
+      "comboHits": [
+        {
+          "damageMultiplier": 0.8,
+          "enduranceDamage": 16,
+          "dealDamageTime": 589,
+          "targetLockTime": 32
+        }
+      ]
+    },
+    {
+      "animationId": 3,
+      "detectRange": 5,
+      "isHeavyAttack": true,
+      "isRanged": false,
+      "pounceRange": 3,
+      "pounceDuration": 160,
+      "pounceTime": 256,
+      "projectileId": null,
+      "fullAnimationTime": 2500,
+      "allowEarlyCancel": true,
+      "earlyCancelTime": 1900,
+      "vfxs": [
+        {
+          "id": "ronan_combo_3",
+          "time": 0,
+          "duration": 1000,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "follow": true
+        }
+      ],
+      "shapeType": 2,
+      "sector": {
+        "range": 7,
+        "angle": 180,
+        "angleOffset": 0
+      },
+      "comboHits": [
+        {
+          "damageMultiplier": 3.5,
+          "enduranceDamage": 32,
+          "dealDamageTime": 519,
+          "targetLockTime": 32
+        }
+      ]
+    }
+  ]
+}
