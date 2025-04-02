@@ -1,0 +1,60 @@
+{
+  "maxMatchPointStorage": 1000,
+  "redeemCost": 200,
+  "dailyExchanges": 30,
+  "leaverRepeatDuration": 180000,
+  "leaverSuspenses": [
+    10000,
+    20000,
+    30000,
+    40000
+  ],
+  "gameModes": {
+    "solo": {
+      "pointRewards": [
+        100,
+        70,
+        50,
+        40,
+        30,
+        20,
+        10,
+        5
+      ],
+      "eloPenalties": {
+        "bronze": 20,
+        "silver": 20,
+        "gold": 20,
+        "platinum": 36,
+        "diamond": 52,
+        "master": 64,
+        "grandMaster": 120
+      }
+    },
+    "team": {
+      "pointRewards": [
+        100,
+        70,
+        50,
+        40,
+        30,
+        20,
+        10,
+        5
+      ],
+      "eloPenalties": {
+        "bronze": 20,
+        "silver": 20,
+        "gold": 20,
+        "platinum": 36,
+        "diamond": 52,
+        "master": 64,
+        "grandMaster": 120
+      }
+    },
+    "practice": {
+      "pointRewards": [],
+      "eloPenalties": {}
+    }
+  }
+}
