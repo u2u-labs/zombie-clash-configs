@@ -40,7 +40,7 @@
     "collider": {
       "shapeType": 0,
       "circle": {
-        "radius": 1.5
+        "radius": 2
       }
     },
     "baseEffects": [
