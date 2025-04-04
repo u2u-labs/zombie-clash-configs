@@ -59,7 +59,7 @@
             "projectileId": null,
             "fullAnimationTime": 1450,
             "allowEarlyCancel": true,
-            "earlyCancelTime": 1100,
+            "earlyCancelTime": 1200,
             "pounceTime": 32,
             "vfxs": [
               {
@@ -82,7 +82,7 @@
               {
                 "damageMultiplier": 1.8,
                 "enduranceDamage": 5,
-                "dealDamageTime": 380,
+                "dealDamageTime": 440,
                 "targetLockTime": 32
               }
             ]
