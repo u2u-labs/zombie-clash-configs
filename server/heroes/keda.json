@@ -3,6 +3,9 @@
   "name": "Keda",
   "class": "Assassin",
   "description": "",
+  "kedaSpecial": {
+    "description": "The cooldown of Keda's Dash while out of combat is 3 seconds and in combat is 6 seconds."
+  },
   "collider": {
     "shapeType": 0,
     "circle": {
@@ -22,6 +25,7 @@
     "size": 1
   },
   "dash": {
+    "description": "Keda dashes forward and enters \"Stalking\" state for {buffs[0].duration|color:yellow:sec} seconds. During \"Stalking\" state, Keda gains {buffs[0].statModifiers[0].value|color:green:%}% movement speed and his next basic attack transforms into <color=\"red\">Ambush</color>\".\n\n<color=\"red\">Ambush</color>: Keda jumps onto his target and strikes from above, dealing {buffs[0].comboSegments[0].comboHits[0].damageMultiplier|color:green:%} ATK DMG. ",
     "unblockAble": true,
     "duration": 600,
     "distance": 7,
@@ -89,6 +93,8 @@
   },
   "comboSegments": [
     {
+      "name": "Combo I",
+      "description": "A single slash that deals {comboHits[0].damageMultiplier|color:green:%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 0,
       "detectRange": 5,
       "isHeavyAttack": false,
@@ -129,6 +135,8 @@
       ]
     },
     {
+      "name": "Combo II",
+      "description": "Executes 2 slashes rapidly, dealing {comboHits[0].damageMultiplier|color:green:%} ATK DMG each.\nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 1,
       "detectRange": 5,
       "isHeavyAttack": false,
@@ -175,6 +183,8 @@
       ]
     },
     {
+      "name": "Combo III",
+      "description": "A heavy slash that deals {comboHits[0].damageMultiplier|color:green:%} ATK DMG in a large area.\nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 2,
       "detectRange": 5,
       "isHeavyAttack": true,
