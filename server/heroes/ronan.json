@@ -32,7 +32,7 @@
   "comboSegments": [
     {
       "name": "Combo I",
-      "description": "Ronan swings his weapon and deals {comboHits[0].damageMultiplier|color:green:%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
+      "description": "Ronan swings his weapon and deals {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 0,
       "detectRange": 5,
       "isHeavyAttack": false,
@@ -74,7 +74,7 @@
     },
     {
       "name": "Combo II",
-      "description": "Ronan swings his weapon again and deals {comboHits[0].damageMultiplier|color:green:%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
+      "description": "Ronan swings his weapon again and deals {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 1,
       "detectRange": 5,
       "isHeavyAttack": false,
@@ -116,7 +116,7 @@
     },
     {
       "name": "Combo III",
-      "description": "Ronan leaps forward to catch up with his target and then executes a shield bash that deals {comboHits[0].damageMultiplier|color:green:%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
+      "description": "Ronan leaps forward to catch up with his target and then executes a shield bash that deals {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 2,
       "detectRange": 5,
       "isHeavyAttack": false,
@@ -157,7 +157,7 @@
     },
     {
       "name": "Combo IV",
-      "description": "A powerful strike that creates a large shockwave dealing {comboHits[0].damageMultiplier|color:green:%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
+      "description": "A powerful strike that creates a large shockwave dealing {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 3,
       "detectRange": 5,
       "isHeavyAttack": true,

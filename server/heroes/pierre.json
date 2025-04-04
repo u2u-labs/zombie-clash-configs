@@ -36,7 +36,7 @@
   "comboSegments": [
     {
       "name": "Combo I",
-      "description": "A quick thrusts forward that deals {comboHits[0].damageMultiplier|color:green:%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
+      "description": "A quick thrusts forward that deals {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 0,
       "detectRange": 5,
       "isHeavyAttack": false,
@@ -78,7 +78,7 @@
     },
     {
       "name": "Combo II",
-      "description": "A frontal slash that deals {comboHits[0].damageMultiplier|color:green:%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
+      "description": "A frontal slash that deals {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 1,
       "detectRange": 5,
       "isHeavyAttack": false,
@@ -120,7 +120,7 @@
     },
     {
       "name": "Combo III",
-      "description": "A powerful thrust that deals {comboHits[0].damageMultiplier|color:green:%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
+      "description": "A powerful thrust that deals {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 2,
       "detectRange": 5,
       "isHeavyAttack": true,
@@ -162,7 +162,7 @@
     },
     {
       "name": "Combo IV",
-      "description": "Pierre summons a magical music note from above. When the note falls down, it deals {comboHits[0].damageMultiplier|color:green:%} ATK DMG in a large area. The area also burns for {fxSpawners[0].duration|sec:color:yellow} seconds, dealing {fxSpawners[0].fixedDamage|color:green} DMG every {fxSpawners[0].fixedDamage|color:yellow} seconds.",
+      "description": "Pierre summons a magical music note from above. When the note falls down, it deals {comboHits[0].damageMultiplier|color:green|%} ATK DMG in a large area. The area also burns for {fxSpawners[0].duration|sec|color:yellow} seconds, dealing {fxSpawners[0].fixedDamage|color:green} DMG every {fxSpawners[0].fixedDamage|color:yellow} seconds.",
       "animationId": 3,
       "detectRange": 5,
       "isHeavyAttack": true,

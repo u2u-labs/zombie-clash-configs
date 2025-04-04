@@ -69,7 +69,7 @@
   "comboSegments": [
     {
       "name": "Combo I",
-      "description": "Throws a frontal right hook, dealing {comboHits[0].damageMultiplier|color:green:%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
+      "description": "Throws a frontal right hook, dealing {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 0,
       "detectRange": 5,
       "isHeavyAttack": false,
@@ -111,7 +111,7 @@
     },
     {
       "name": "Combo II",
-      "description": "Throws a frontal uppercut, dealing {comboHits[0].damageMultiplier|color:green:%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
+      "description": "Throws a frontal uppercut, dealing {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 1,
       "detectRange": 5,
       "isHeavyAttack": false,
@@ -153,7 +153,7 @@
     },
     {
       "name": "Combo III",
-      "description": "Executes 2 quick jabs, dealing {comboHits[0].damageMultiplier|color:green:%} ATK DMG and {comboHits[1].damageMultiplier|color:green:%} ATK DMG respectively.\nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
+      "description": "Executes 2 quick jabs, dealing {comboHits[0].damageMultiplier|color:green|%} ATK DMG and {comboHits[1].damageMultiplier|color:green|%} ATK DMG respectively.\nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 2,
       "detectRange": 5,
       "isHeavyAttack": true,
