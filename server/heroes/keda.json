@@ -10,23 +10,23 @@
     }
   },
   "attributes": {
-    "maxHp": 940,
+    "maxHp": 1880,
     "maxEndurance": 100,
     "enduranceRecoveryNeutral": 16,
-    "enduranceRecoveryInCombat": 8,
+    "enduranceRecoveryInCombat": 1,
     "hpPercentRecoveryNeutral": 0.13,
     "hpPercentRecoveryOnKill": 0.1,
-    "baseDamage": 70,
+    "baseDamage": 140,
     "moveSpeed": 8,
     "maxEpc": 30,
     "size": 1
   },
   "dash": {
     "unblockAble": true,
-    "duration": 600,
-    "distance": 7,
-    "neutralCooldown": 3000,
-    "combatCooldown": 6000,
+    "duration": 500,
+    "distance": 8,
+    "neutralCooldown": 2000,
+    "combatCooldown": 4000,
     "buffs": [
       {
         "type": "ambush",
@@ -46,16 +46,16 @@
         "comboSegments": [
           {
             "animationId": 3,
-            "detectRange": 9,
+            "detectRange": 11,
             "isAmbush": true,
             "isHeavyAttack": false,
             "isRanged": false,
-            "pounceRange": 9.5,
-            "pounceDuration": 300,
+            "pounceRange": 11,
+            "pounceDuration": 400,
             "projectileId": null,
             "fullAnimationTime": 1450,
             "allowEarlyCancel": true,
-            "earlyCancelTime": 1187,
+            "earlyCancelTime": 1087,
             "pounceTime": 32,
             "vfxs": [
               {
@@ -78,7 +78,7 @@
               {
                 "damageMultiplier": 1.8,
                 "enduranceDamage": 5,
-                "dealDamageTime": 350,
+                "dealDamageTime": 330,
                 "targetLockTime": 32
               }
             ]
@@ -94,12 +94,12 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 160,
+      "pounceDuration": 300,
       "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 945,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 565,
+      "earlyCancelTime": 515,
       "vfxs": [
         {
           "id": "keda_combo_0",
@@ -134,12 +134,12 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 160,
+      "pounceDuration": 300,
       "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 1201,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 671,
+      "earlyCancelTime": 621,
       "vfxs": [
         {
           "id": "keda_combo_1",
@@ -180,12 +180,12 @@
       "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 4,
-      "pounceDuration": 160,
+      "pounceDuration": 400,
       "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 1213,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 1032,
+      "earlyCancelTime": 932,
       "vfxs": [
         {
           "id": "keda_combo_2",
