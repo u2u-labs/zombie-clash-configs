@@ -67,6 +67,7 @@
   },
   "comboSegments": [
     {
+      "description": "",
       "animationId": 0,
       "detectRange": 5,
       "isHeavyAttack": false,
