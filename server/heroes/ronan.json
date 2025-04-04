@@ -39,7 +39,7 @@
       "isRanged": false,
       "pounceRange": 3,
       "pounceDuration": 200,
-      "pounceTime": 700,
+      "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 1233,
       "allowEarlyCancel": true,
@@ -67,7 +67,7 @@
         {
           "damageMultiplier": 1,
           "enduranceDamage": 8,
-          "dealDamageTime": 414,
+          "dealDamageTime": 445,
           "targetLockTime": 32
         }
       ]
@@ -81,7 +81,7 @@
       "isRanged": false,
       "pounceRange": 3,
       "pounceDuration": 200,
-      "pounceTime": 740,
+      "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 1285,
       "allowEarlyCancel": true,
@@ -109,7 +109,7 @@
         {
           "damageMultiplier": 1,
           "enduranceDamage": 8,
-          "dealDamageTime": 461,
+          "dealDamageTime": 490,
           "targetLockTime": 32
         }
       ]
@@ -123,7 +123,7 @@
       "isRanged": false,
       "pounceRange": 4.5,
       "pounceDuration": 200,
-      "pounceTime": 850,
+      "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 1205,
       "allowEarlyCancel": true,
@@ -150,7 +150,7 @@
         {
           "damageMultiplier": 0.8,
           "enduranceDamage": 16,
-          "dealDamageTime": 589,
+          "dealDamageTime": 620,
           "targetLockTime": 32
         }
       ]
@@ -164,7 +164,7 @@
       "isRanged": false,
       "pounceRange": 3,
       "pounceDuration": 200,
-      "pounceTime": 700,
+      "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 2500,
       "allowEarlyCancel": true,
@@ -192,7 +192,7 @@
         {
           "damageMultiplier": 3.5,
           "enduranceDamage": 32,
-          "dealDamageTime": 519,
+          "dealDamageTime": 540,
           "targetLockTime": 32
         }
       ]
