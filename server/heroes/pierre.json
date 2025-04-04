@@ -14,13 +14,13 @@
     "hpSacrifice": 50
   },
   "attributes": {
-    "maxHp": 920,
+    "maxHp": 1800,
     "maxEndurance": 100,
     "enduranceRecoveryNeutral": 16,
-    "enduranceRecoveryInCombat": 8,
+    "enduranceRecoveryInCombat": 1,
     "hpPercentRecoveryNeutral": 0.13,
     "hpPercentRecoveryOnKill": 0.1,
-    "baseDamage": 75,
+    "baseDamage": 130,
     "moveSpeed": 7.5,
     "maxEpc": 30,
     "size": 1
@@ -28,10 +28,10 @@
   "dash": {
     "description": "Pierre dashes forward.",
     "unblockAble": true,
-    "duration": 600,
-    "distance": 7,
-    "neutralCooldown": 4000,
-    "combatCooldown": 8000
+    "duration": 500,
+    "distance": 8,
+    "neutralCooldown": 3000,
+    "combatCooldown": 6000
   },
   "comboSegments": [
     {
@@ -42,7 +42,7 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 4,
-      "pounceDuration": 200,
+      "pounceDuration": 300,
       "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 933,
@@ -84,7 +84,7 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 2,
-      "pounceDuration": 200,
+      "pounceDuration": 300,
       "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 1167,
@@ -126,7 +126,7 @@
       "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 4,
-      "pounceDuration": 200,
+      "pounceDuration": 300,
       "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 1467,
@@ -168,7 +168,7 @@
       "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 2,
-      "pounceDuration": 200,
+      "pounceDuration": 300,
       "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 1362,

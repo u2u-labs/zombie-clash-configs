@@ -51,7 +51,7 @@
             "isHeavyAttack": false,
             "isRanged": false,
             "pounceRange": 11,
-            "pounceDuration": 400,
+            "pounceDuration": 150,
             "projectileId": null,
             "fullAnimationTime": 1450,
             "allowEarlyCancel": true,
