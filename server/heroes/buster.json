@@ -10,24 +10,24 @@
     }
   },
   "attributes": {
-    "maxHp": 1000,
+    "maxHp": 2000,
     "maxEndurance": 100,
     "enduranceRecoveryNeutral": 16,
-    "enduranceRecoveryInCombat": 8,
+    "enduranceRecoveryInCombat": 1,
     "hpPercentRecoveryNeutral": 0.13,
     "hpPercentRecoveryOnKill": 0.1,
     "maxEpc": 30,
-    "baseDamage": 60,
+    "baseDamage": 120,
     "moveSpeed": 7.2,
     "size": 1
   },
   "dash": {
     "description": "Buster spins around 2 times with high speed, dealing {effects[0].fixedDamage|color:green} DMG each time.",
     "unblockAble": true,
-    "duration": 600,
-    "distance": 7,
-    "neutralCooldown": 4000,
-    "combatCooldown": 8000,
+    "duration": 500,
+    "distance": 8,
+    "neutralCooldown": 3000,
+    "combatCooldown": 6000,
     "effects": [
       {
         "duration": 0,
@@ -36,7 +36,7 @@
         "collider": {
           "shapeType": 0,
           "circle": {
-            "radius": 3
+            "radius": 4
           }
         }
       },
@@ -47,7 +47,7 @@
         "collider": {
           "shapeType": 0,
           "circle": {
-            "radius": 3.4
+            "radius": 4
           }
         }
       }
@@ -75,11 +75,11 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 160,
+      "pounceDuration": 300,
       "projectileId": null,
       "fullAnimationTime": 833,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 593,
+      "earlyCancelTime": 503,
       "pounceTime": 32,
       "vfxs": [
         {
@@ -117,11 +117,11 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 160,
+      "pounceDuration": 300,
       "projectileId": null,
       "fullAnimationTime": 933,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 660,
+      "earlyCancelTime": 570,
       "pounceTime": 32,
       "vfxs": [
         {
@@ -159,11 +159,11 @@
       "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 160,
+      "pounceDuration": 300,
       "projectileId": null,
       "fullAnimationTime": 933,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 906,
+      "earlyCancelTime": 816,
       "pounceTime": 32,
       "vfxs": [
         {
