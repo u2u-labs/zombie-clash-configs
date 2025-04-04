@@ -96,7 +96,7 @@
       "detectRange": 10,
       "isHeavyAttack": false,
       "isRanged": false,
-      "pounceRange": 1.25,
+      "pounceRange": 1,
       "pounceDuration": 200,
       "projectileId": null,
       "fullAnimationTime": 1433,
@@ -143,7 +143,7 @@
       "projectileId": null,
       "fullAnimationTime": 1900,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 1500,
+      "earlyCancelTime": 1220,
       "pounceTime": 16,
       "vfxs": [
         {
