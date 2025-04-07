@@ -5,7 +5,7 @@
   "name": "Free For All",
   "maxPlayers": 8,
   "maxKills": 20,
-  "matchTime": 3600000,
+  "matchTime": 360000,
   "bounds": [
     {
       "x": -60,
