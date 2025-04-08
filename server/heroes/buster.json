@@ -72,7 +72,7 @@
       "description": "Throws a frontal right hook, dealing {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 0,
       "detectRange": 5,
-      "isHeavyAttack": false,
+      "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 3,
       "pounceDuration": 300,
