@@ -102,8 +102,8 @@
       },
       "comboHits": [
         {
-          "damageMultiplier": 19999,
-          "enduranceDamage": 59999,
+          "damageMultiplier": 1,
+          "enduranceDamage": 5,
           "dealDamageTime": 197,
           "targetLockTime": 32
         }
