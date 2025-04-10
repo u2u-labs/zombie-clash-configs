@@ -2,7 +2,7 @@
   "entry": {
     "timer": 500,
     "cooldownActive": 15000,
-    "lockDuration": 1400,
+    "lockDuration": 1900,
     "modelOffTime": 600,
     "duration": 800,
     "buff": {
@@ -13,13 +13,13 @@
   },
   "exit": {
     "timer": 100,
-    "modelOnTime": 650,
+    "modelOnTime": 1100,
     "fixedDamage": 99999,
-    "dealDamageTime": 600,
+    "dealDamageTime": 1000,
     "effectCollider": {
       "shapeType": 0,
       "circle": {
-        "radius": 6
+        "radius": 5.5
       }
     }
   }
