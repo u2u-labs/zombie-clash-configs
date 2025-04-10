@@ -11,7 +11,7 @@
   },
   "lucasSpecial": {
     "description": "Lucas' attack heals allied heroes who stand inside of its AOE for {damageRecoveryPercent|color:green|%} of the damage it deals.",
-    "damageRecoveryPercent": 0.4
+    "damageRecoveryPercent": 0.3
   },
   "attributes": {
     "maxHp": 1700,

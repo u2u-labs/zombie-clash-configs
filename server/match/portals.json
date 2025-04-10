@@ -2,7 +2,7 @@
   "entry": {
     "timer": 500,
     "cooldownActive": 15000,
-    "lockDuration": 1450,
+    "lockDuration": 1400,
     "modelOffTime": 600,
     "duration": 800,
     "buff": {
@@ -12,7 +12,7 @@
     }
   },
   "exit": {
-    "timer": 200,
+    "timer": 100,
     "modelOnTime": 650,
     "fixedDamage": 99999,
     "dealDamageTime": 600,
