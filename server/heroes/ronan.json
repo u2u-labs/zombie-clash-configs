@@ -24,7 +24,7 @@
   "dash": {
     "description": "Ronan dashes forward.",
     "unblockAble": true,
-    "duration": 500,
+    "duration": 450,
     "distance": 8,
     "neutralCooldown": 3000,
     "combatCooldown": 6000
@@ -68,7 +68,8 @@
           "damageMultiplier": 1,
           "enduranceDamage": 8,
           "dealDamageTime": 450,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
@@ -110,7 +111,8 @@
           "damageMultiplier": 1,
           "enduranceDamage": 8,
           "dealDamageTime": 490,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
@@ -151,7 +153,8 @@
           "damageMultiplier": 0.8,
           "enduranceDamage": 16,
           "dealDamageTime": 600,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"shot"
         }
       ]
     },
@@ -193,7 +196,8 @@
           "damageMultiplier": 3.5,
           "enduranceDamage": 32,
           "dealDamageTime": 570,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     }

@@ -28,7 +28,7 @@
   "dash": {
     "description": "Pierre dashes forward.",
     "unblockAble": true,
-    "duration": 500,
+    "duration": 450,
     "distance": 8,
     "neutralCooldown": 3000,
     "combatCooldown": 6000
@@ -72,7 +72,8 @@
           "damageMultiplier": 0.8,
           "enduranceDamage": 4,
           "dealDamageTime": 221,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
@@ -114,7 +115,8 @@
           "damageMultiplier": 1,
           "enduranceDamage": 8,
           "dealDamageTime": 156,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
@@ -156,7 +158,8 @@
           "damageMultiplier": 1.6,
           "enduranceDamage": 12,
           "dealDamageTime": 218,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
@@ -197,7 +200,8 @@
           "damageMultiplier": 2,
           "enduranceDamage": 20,
           "dealDamageTime": 379,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"explosion"
         }
       ],
       "fxSpawners": [

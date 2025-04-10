@@ -21,14 +21,14 @@
     "hpPercentRecoveryNeutral": 0.13,
     "hpPercentRecoveryOnKill": 0.1,
     "baseDamage": 115,
-    "moveSpeed": 7.2,
+    "moveSpeed": 7.5,
     "maxEpc": 30,
     "size": 1
   },
   "dash": {
     "description": "Lucas dashes forward.",
     "unblockAble": true,
-    "duration": 500,
+    "duration": 450,
     "distance": 8,
     "neutralCooldown": 3000,
     "combatCooldown": 6000,
@@ -85,7 +85,9 @@
           "damageMultiplier": 1,
           "enduranceDamage": 5,
           "dealDamageTime": 170,
-          "targetLockTime": 64
+          "targetLockTime": 64,
+          "vfx":"shot"
+    
         }
       ]
     },
@@ -127,7 +129,8 @@
           "damageMultiplier": 1.4,
           "enduranceDamage": 10,
           "dealDamageTime": 580,
-          "targetLockTime": 128
+          "targetLockTime": 128,
+          "vfx":"shot"
         }
       ]
     },
@@ -168,7 +171,8 @@
           "damageMultiplier": 2.5,
           "enduranceDamage": 25,
           "targetLockTime": 256,
-          "dealDamageTime": 528
+          "dealDamageTime": 528,
+          "vfx":"explosion"
         }
       ],
       "fxSpawners": [
