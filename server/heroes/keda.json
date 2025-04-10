@@ -19,8 +19,8 @@
     "enduranceRecoveryInCombat": 1,
     "hpPercentRecoveryNeutral": 0.13,
     "hpPercentRecoveryOnKill": 0.1,
-    "baseDamage": 140,
-    "moveSpeed": 8,
+    "baseDamage": 130,
+    "moveSpeed": 7.8,
     "maxEpc": 30,
     "size": 1
   },
