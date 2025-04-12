@@ -103,7 +103,7 @@
       "projectileId": null,
       "fullAnimationTime": 1433,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 1040,
+      "earlyCancelTime": 960,
       "pounceTime": 32,
       "vfxs": [
         {
@@ -138,7 +138,7 @@
       "name": "Combo III",
       "description": "Lucas briefly jumps up and shoots an explosive round at his target. The explosive round deals {comboHits[0].damageMultiplier|color:green|%} ATK DMG in a small area.\n\nEndurance damage {comboHits[0].enduranceDamage|color:orange}\n\nAfter {fxSpawners[0].delay|sec|color:green} second, a Healing Mine will spawn at the center of the explosion. Lucas and allied heroes can activate the Healing Mine by standing close to it.\n\nUpon activation, the Healing Mine releases a healing wave that instantly heals {-fxSpawners[0].fixedDamage|color:green} HP.\n\nHeroes who are healed by the healing wave also recover {fxSpawners[0].buffs[0].statModifiers[0].value|color:green} HP and {fxSpawners[0].buffs[0].statModifiers[1].value|color:orange} Endurance per second for the next {fxSpawners[0].buffs[0].duration|sec}second(s).\n\nOnce the Healing Mine is activated, Lucas cannot use the this combo for the next {fxSpawners[0].coolDown|sec|color:red}second(s).\n\nOnly {fxSpawners[0].maxCount|color:red} Healing Mine can be spawned on the battlefield (the newest one will replace the oldest one).\n",
       "animationId": 2,
-      "detectRange": 12,
+      "detectRange": 10,
       "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 0.25,
@@ -146,7 +146,7 @@
       "projectileId": null,
       "fullAnimationTime": 1900,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 1220,
+      "earlyCancelTime": 1120,
       "pounceTime": 16,
       "vfxs": [
         {
@@ -163,7 +163,7 @@
       ],
       "shapeType": 0,
       "circle": {
-        "range": 5,
+        "range": 10,
         "radius": 3
       },
       "comboHits": [
