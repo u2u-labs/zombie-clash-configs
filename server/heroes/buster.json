@@ -18,7 +18,7 @@
     "hpPercentRecoveryOnKill": 0.1,
     "maxEpc": 30,
     "baseDamage": 120,
-    "moveSpeed": 7.2,
+    "moveSpeed": 7,
     "size": 1
   },
   "dash": {
@@ -79,7 +79,7 @@
       "projectileId": null,
       "fullAnimationTime": 833,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 503,
+      "earlyCancelTime": 603,
       "pounceTime": 32,
       "vfxs": [
         {
@@ -122,7 +122,7 @@
       "projectileId": null,
       "fullAnimationTime": 933,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 570,
+      "earlyCancelTime": 670,
       "pounceTime": 32,
       "vfxs": [
         {
@@ -165,7 +165,7 @@
       "projectileId": null,
       "fullAnimationTime": 933,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 816,
+      "earlyCancelTime": 916,
       "pounceTime": 32,
       "vfxs": [
         {
