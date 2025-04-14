@@ -163,7 +163,7 @@
       ],
       "shapeType": 0,
       "circle": {
-        "range": 10,
+        "range": -1,
         "radius": 3
       },
       "comboHits": [
