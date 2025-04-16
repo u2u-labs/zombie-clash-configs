@@ -5,7 +5,7 @@
   "name": "Free For All",
   "maxPlayers": 8,
   "maxKills": 20,
-  "matchTime": 3600000,
+  "matchTime": 36000000,
   "bounds": [
     {
       "x": -60,
@@ -443,9 +443,9 @@
       {
         "index": 10,
         "position": {
-          "x": 0.322166443,
-          "y": 1.46,
-          "z": 44.64197
+          "x": 0.0,
+          "y": 0.0,
+          "z": 41
         },
         "rotation": {
           "x": 0.0,
@@ -535,7 +535,7 @@
         "index": 17,
         "position": {
           "x": 37.7852631,
-          "y": 2.0,
+          "y": 2.2,
           "z": -45.4459763
         },
         "rotation": {

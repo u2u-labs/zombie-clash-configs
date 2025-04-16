@@ -10,37 +10,40 @@
     }
   },
   "attributes": {
-    "maxHp": 1360,
+    "maxHp": 2360,
     "maxEndurance": 100,
     "enduranceRecoveryNeutral": 16,
-    "enduranceRecoveryInCombat": 8,
+    "enduranceRecoveryInCombat": 1,
     "hpPercentRecoveryNeutral": 0.13,
     "hpPercentRecoveryOnKill": 0.1,
-    "baseDamage": 60,
+    "baseDamage": 110,
     "moveSpeed": 7.5,
     "maxEpc": 30,
     "size": 1
   },
   "dash": {
+    "description": "Ronan dashes forward.",
     "unblockAble": true,
-    "duration": 600,
-    "distance": 7,
-    "neutralCooldown": 4000,
-    "combatCooldown": 8000
+    "duration": 450,
+    "distance": 8,
+    "neutralCooldown": 3000,
+    "combatCooldown": 6000
   },
   "comboSegments": [
     {
+      "name": "Combo I",
+      "description": "Ronan swings his weapon and deals {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 0,
       "detectRange": 5,
       "isHeavyAttack": false,
       "isRanged": false,
-      "pounceRange": 3,
-      "pounceDuration": 160,
-      "pounceTime": 300,
+      "pounceRange": 4,
+      "pounceDuration": 150,
+      "pounceTime": 100,
       "projectileId": null,
       "fullAnimationTime": 1233,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 720,
+      "earlyCancelTime": 740,
       "vfxs": [
         {
           "id": "ronan_combo_0",
@@ -64,23 +67,26 @@
         {
           "damageMultiplier": 1,
           "enduranceDamage": 8,
-          "dealDamageTime": 414,
-          "targetLockTime": 32
+          "dealDamageTime": 180,
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
     {
+      "name": "Combo II",
+      "description": "Ronan swings his weapon again and deals {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 1,
       "detectRange": 5,
       "isHeavyAttack": false,
       "isRanged": false,
-      "pounceRange": 3,
-      "pounceDuration": 160,
-      "pounceTime": 256,
+      "pounceRange": 4,
+      "pounceDuration": 150,
+      "pounceTime": 110,
       "projectileId": null,
-      "fullAnimationTime": 1285,
+      "fullAnimationTime": 1283,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 760,
+      "earlyCancelTime": 771,
       "vfxs": [
         {
           "id": "ronan_combo_1",
@@ -104,23 +110,26 @@
         {
           "damageMultiplier": 1,
           "enduranceDamage": 8,
-          "dealDamageTime": 461,
-          "targetLockTime": 32
+          "dealDamageTime": 250,
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
     {
+      "name": "Combo III",
+      "description": "Ronan leaps forward to catch up with his target and then executes a shield bash that deals {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 2,
       "detectRange": 5,
       "isHeavyAttack": false,
       "isRanged": false,
-      "pounceRange": 4.5,
-      "pounceDuration": 200,
-      "pounceTime": 256,
+      "pounceRange": 5,
+      "pounceDuration": 175,
+      "pounceTime": 300,
       "projectileId": null,
-      "fullAnimationTime": 1205,
+      "fullAnimationTime": 1208,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 870,
+      "earlyCancelTime": 790,
       "vfxs": [
         {
           "id": "ronan_combo_2",
@@ -143,23 +152,26 @@
         {
           "damageMultiplier": 0.8,
           "enduranceDamage": 16,
-          "dealDamageTime": 589,
-          "targetLockTime": 32
+          "dealDamageTime": 560,
+          "targetLockTime": 32,
+          "vfx":"shot"
         }
       ]
     },
     {
+      "name": "Combo IV",
+      "description": "A powerful strike that creates a large shockwave dealing {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 3,
       "detectRange": 5,
       "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 160,
-      "pounceTime": 256,
+      "pounceDuration": 200,
+      "pounceTime": 750,
       "projectileId": null,
-      "fullAnimationTime": 2500,
+      "fullAnimationTime": 2175,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 1900,
+      "earlyCancelTime": 1780,
       "vfxs": [
         {
           "id": "ronan_combo_3",
@@ -183,8 +195,9 @@
         {
           "damageMultiplier": 3.5,
           "enduranceDamage": 32,
-          "dealDamageTime": 519,
-          "targetLockTime": 32
+          "dealDamageTime": 890,
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     }

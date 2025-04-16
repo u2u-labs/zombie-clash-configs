@@ -40,23 +40,23 @@
     "collider": {
       "shapeType": 0,
       "circle": {
-        "radius": 1.5
+        "radius": 2
       }
     },
     "baseEffects": [
       {
         "key": "MaxHp",
-        "value": 5,
+        "value": 15,
         "math": "add"
       },
       {
         "key": "Hp",
-        "value": 5,
+        "value": 15,
         "math": "add"
       },
       {
         "key": "Damage",
-        "value": 1,
+        "value": 3,
         "math": "add"
       }
     ],

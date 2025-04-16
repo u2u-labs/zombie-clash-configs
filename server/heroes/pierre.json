@@ -10,35 +10,39 @@
     }
   },
   "pierreSpecial": {
+    "description": "Pierre surrounds himself with a magical aura. The aura helps him resist Staggered effect for the cost of {hpSacrifice|color:red} of his own HP. This loss of HP can kill Pierre.",
     "hpSacrifice": 50
   },
   "attributes": {
-    "maxHp": 920,
+    "maxHp": 1800,
     "maxEndurance": 100,
     "enduranceRecoveryNeutral": 16,
-    "enduranceRecoveryInCombat": 8,
+    "enduranceRecoveryInCombat": 1,
     "hpPercentRecoveryNeutral": 0.13,
     "hpPercentRecoveryOnKill": 0.1,
-    "baseDamage": 75,
+    "baseDamage": 130,
     "moveSpeed": 7.5,
     "maxEpc": 30,
     "size": 1
   },
   "dash": {
+    "description": "Pierre dashes forward.",
     "unblockAble": true,
-    "duration": 600,
-    "distance": 7,
-    "neutralCooldown": 4000,
-    "combatCooldown": 8000
+    "duration": 450,
+    "distance": 8,
+    "neutralCooldown": 3000,
+    "combatCooldown": 6000
   },
   "comboSegments": [
     {
+      "name": "Combo I",
+      "description": "A quick thrusts forward that deals {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 0,
       "detectRange": 5,
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 4,
-      "pounceDuration": 200,
+      "pounceDuration": 300,
       "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 933,
@@ -68,17 +72,20 @@
           "damageMultiplier": 0.8,
           "enduranceDamage": 4,
           "dealDamageTime": 221,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
     {
+      "name": "Combo II",
+      "description": "A frontal slash that deals {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 1,
       "detectRange": 5,
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 2,
-      "pounceDuration": 200,
+      "pounceDuration": 300,
       "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 1167,
@@ -108,17 +115,20 @@
           "damageMultiplier": 1,
           "enduranceDamage": 8,
           "dealDamageTime": 156,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
     {
+      "name": "Combo III",
+      "description": "A powerful thrust that deals {comboHits[0].damageMultiplier|color:green|%} ATK DMG. \nEndurance damage {comboHits[0].enduranceDamage|color:orange}",
       "animationId": 2,
       "detectRange": 5,
       "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 4,
-      "pounceDuration": 200,
+      "pounceDuration": 300,
       "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 1467,
@@ -148,17 +158,20 @@
           "damageMultiplier": 1.6,
           "enduranceDamage": 12,
           "dealDamageTime": 218,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
     {
+      "name": "Combo IV",
+      "description": "Pierre summons a magical force that strikes from above dealing {comboHits[0].damageMultiplier|color:green|%} ATK DMG in a large area. The area also burns for {fxSpawners[0].duration|sec|color:yellow} seconds, dealing {fxSpawners[0].fixedDamage|color:green} DMG every {fxSpawners[0].fixedDamage|color:yellow} seconds.",
       "animationId": 3,
       "detectRange": 5,
       "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 2,
-      "pounceDuration": 200,
+      "pounceDuration": 300,
       "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 1362,
@@ -172,7 +185,7 @@
           "position": {
             "x": 0,
             "y": 0,
-            "z": 0
+            "z": 4
           },
           "follow": false
         }
@@ -187,7 +200,8 @@
           "damageMultiplier": 2,
           "enduranceDamage": 20,
           "dealDamageTime": 379,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"explosion"
         }
       ],
       "fxSpawners": [
