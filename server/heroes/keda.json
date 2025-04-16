@@ -72,6 +72,17 @@
                   "z": 0
                 },
                 "follow": true
+              },
+              {
+                "id": "keda_ambush_self",
+                "time": 0,
+                "duration": 1000,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "follow": true
               }
             ],
             "shapeType": 0,
