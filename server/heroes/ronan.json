@@ -124,8 +124,8 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 5,
-      "pounceDuration": 175,
-      "pounceTime": 300,
+      "pounceDuration": 125,
+      "pounceTime": 280,
       "projectileId": null,
       "fullAnimationTime": 1208,
       "allowEarlyCancel": true,
@@ -152,7 +152,7 @@
         {
           "damageMultiplier": 0.8,
           "enduranceDamage": 16,
-          "dealDamageTime": 560,
+          "dealDamageTime": 500,
           "targetLockTime": 32,
           "vfx":"shot"
         }
@@ -167,7 +167,7 @@
       "isRanged": false,
       "pounceRange": 3,
       "pounceDuration": 200,
-      "pounceTime": 750,
+      "pounceTime": 625,
       "projectileId": null,
       "fullAnimationTime": 2175,
       "allowEarlyCancel": true,
@@ -195,7 +195,7 @@
         {
           "damageMultiplier": 3.5,
           "enduranceDamage": 32,
-          "dealDamageTime": 890,
+          "dealDamageTime": 800,
           "targetLockTime": 32,
           "vfx":"slash"
         }
