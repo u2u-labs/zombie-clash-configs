@@ -188,16 +188,30 @@
       },
       "comboHits": [
         {
-          "damageMultiplier": 1.2,
-          "enduranceDamage": 12,
+          "damageMultiplier": 0.6,
+          "enduranceDamage": 6,
           "dealDamageTime": 213,
           "targetLockTime": 32,
           "vfx":"punch"
         },
         {
-          "damageMultiplier": 1.3,
-          "enduranceDamage": 13,
-          "dealDamageTime": 535,
+          "damageMultiplier": 0.6,
+          "enduranceDamage": 6,
+          "dealDamageTime": 233,
+          "targetLockTime": 32,
+          "vfx":"punch"
+        },
+        {
+          "damageMultiplier": 0.6,
+          "enduranceDamage": 6,
+          "dealDamageTime": 520,
+          "targetLockTime": 32,
+          "vfx":"punch"
+        },
+        {
+          "damageMultiplier": 0.6,
+          "enduranceDamage": 6,
+          "dealDamageTime": 540,
           "targetLockTime": 32,
           "vfx":"punch"
         }
