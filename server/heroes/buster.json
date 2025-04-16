@@ -80,7 +80,7 @@
       "fullAnimationTime": 833,
       "allowEarlyCancel": true,
       "earlyCancelTime": 603,
-      "pounceTime": 32,
+      "pounceTime": 64,
       "vfxs": [
         {
           "id": "buster_combo_0",
@@ -122,13 +122,13 @@
       "projectileId": null,
       "fullAnimationTime": 933,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 670,
-      "pounceTime": 32,
+      "earlyCancelTime": 720,
+      "pounceTime": 64,
       "vfxs": [
         {
           "id": "buster_combo_1",
           "time": 0,
-          "duration": 700,
+          "duration": 900,
           "position": {
             "x": 0,
             "y": 0,
@@ -147,7 +147,7 @@
         {
           "damageMultiplier": 1.2,
           "enduranceDamage": 10,
-          "dealDamageTime": 237,
+          "dealDamageTime": 240,
           "targetLockTime": 32,
           "vfx":"punch"
         }
@@ -163,10 +163,10 @@
       "pounceRange": 3,
       "pounceDuration": 300,
       "projectileId": null,
-      "fullAnimationTime": 933,
+      "fullAnimationTime": 1167,
       "allowEarlyCancel": true,
       "earlyCancelTime": 916,
-      "pounceTime": 32,
+      "pounceTime": 132,
       "vfxs": [
         {
           "id": "buster_combo_2",
@@ -190,14 +190,14 @@
         {
           "damageMultiplier": 1.2,
           "enduranceDamage": 12,
-          "dealDamageTime": 202,
+          "dealDamageTime": 213,
           "targetLockTime": 32,
           "vfx":"punch"
         },
         {
           "damageMultiplier": 1.3,
           "enduranceDamage": 13,
-          "dealDamageTime": 391,
+          "dealDamageTime": 535,
           "targetLockTime": 32,
           "vfx":"punch"
         }
