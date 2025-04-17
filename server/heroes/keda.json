@@ -57,9 +57,9 @@
             "pounceRange": 11,
             "pounceDuration": 64,
             "projectileId": null,
-            "fullAnimationTime": 1450,
+            "fullAnimationTime": 1317,
             "allowEarlyCancel": true,
-            "earlyCancelTime": 1200,
+            "earlyCancelTime": 1080,
             "pounceTime": 32,
             "vfxs": [
               {
@@ -93,7 +93,7 @@
               {
                 "damageMultiplier": 1.8,
                 "enduranceDamage": 5,
-                "dealDamageTime": 440,
+                "dealDamageTime": 540,
                 "targetLockTime": 32,
                 "vfx":"slash"
               }
@@ -113,9 +113,9 @@
       "isRanged": false,
       "pounceRange": 3,
       "pounceDuration": 300,
-      "pounceTime": 32,
+      "pounceTime": 64,
       "projectileId": null,
-      "fullAnimationTime": 945,
+      "fullAnimationTime": 950,
       "allowEarlyCancel": true,
       "earlyCancelTime": 515,
       "vfxs": [
@@ -156,11 +156,11 @@
       "isRanged": false,
       "pounceRange": 3,
       "pounceDuration": 300,
-      "pounceTime": 32,
+      "pounceTime": 132,
       "projectileId": null,
-      "fullAnimationTime": 1201,
+      "fullAnimationTime": 1000,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 621,
+      "earlyCancelTime": 570,
       "vfxs": [
         {
           "id": "keda_combo_1",
@@ -184,14 +184,14 @@
         {
           "damageMultiplier": 0.7,
           "enduranceDamage": 5,
-          "dealDamageTime": 230,
+          "dealDamageTime": 270,
           "targetLockTime": 32,
           "vfx":"slash"
         },
         {
           "damageMultiplier": 0.7,
           "enduranceDamage": 5,
-          "dealDamageTime": 316,
+          "dealDamageTime": 280,
           "targetLockTime": 32,
           "vfx":"slash"
         }
@@ -204,18 +204,18 @@
       "detectRange": 5,
       "isHeavyAttack": true,
       "isRanged": false,
-      "pounceRange": 4,
-      "pounceDuration": 400,
-      "pounceTime": 32,
+      "pounceRange": 7,
+      "pounceDuration": 100,
+      "pounceTime": 440,
       "projectileId": null,
-      "fullAnimationTime": 1213,
+      "fullAnimationTime": 1450,
       "allowEarlyCancel": true,
       "earlyCancelTime": 932,
       "vfxs": [
         {
           "id": "keda_combo_2",
           "time": 0,
-          "duration": 750,
+          "duration": 1000,
           "position": {
             "x": 0,
             "y": 0,
@@ -234,7 +234,7 @@
         {
           "damageMultiplier": 2.2,
           "enduranceDamage": 15,
-          "dealDamageTime": 326,
+          "dealDamageTime": 500,
           "targetLockTime": 32,
           "vfx":"slash"
         }
