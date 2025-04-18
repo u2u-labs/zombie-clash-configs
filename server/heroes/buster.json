@@ -188,30 +188,43 @@
       },
       "comboHits": [
         {
-          "damageMultiplier": 0.6,
-          "enduranceDamage": 6,
-          "dealDamageTime": 213,
-          "targetLockTime": 32,
-          "vfx":"punch"
-        },
-        {
-          "damageMultiplier": 0.6,
-          "enduranceDamage": 6,
+          "damageMultiplier": 0.4,
+          "enduranceDamage": 4,
           "dealDamageTime": 233,
           "targetLockTime": 32,
           "vfx":"punch"
         },
         {
-          "damageMultiplier": 0.6,
-          "enduranceDamage": 6,
+          "damageMultiplier": 0.5,
+          "enduranceDamage": 4,
+          "dealDamageTime": 273,
+          "targetLockTime": 32,
+          "vfx":"punch"
+        },
+        {
+          "damageMultiplier": 0.3,
+          "enduranceDamage": 4,
+          "dealDamageTime": 313,
+          "targetLockTime": 32,
+          "vfx":"punch"
+        },
+        {
+          "damageMultiplier": 0.4,
+          "enduranceDamage": 4,
           "dealDamageTime": 520,
           "targetLockTime": 32,
           "vfx":"punch"
         },
         {
-          "damageMultiplier": 0.6,
-          "enduranceDamage": 6,
-          "dealDamageTime": 540,
+          "damageMultiplier": 0.3,
+          "enduranceDamage": 4,
+          "dealDamageTime": 560,
+          "targetLockTime": 32,
+          "vfx":"punch"
+        },{
+          "damageMultiplier": 0.5,
+          "enduranceDamage": 4,
+          "dealDamageTime": 600,
           "targetLockTime": 32,
           "vfx":"punch"
         }
