@@ -75,7 +75,8 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 300,
+      "pounceDuration": 200,
+      "pounceException": null,
       "projectileId": null,
       "fullAnimationTime": 833,
       "allowEarlyCancel": true,
@@ -118,7 +119,8 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 300,
+      "pounceDuration": 200,
+      "pounceException": "penetrate",
       "projectileId": null,
       "fullAnimationTime": 933,
       "allowEarlyCancel": true,
@@ -161,7 +163,8 @@
       "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 300,
+      "pounceDuration": 200,
+      "pounceException": null,
       "projectileId": null,
       "fullAnimationTime": 1167,
       "allowEarlyCancel": true,
@@ -188,46 +191,22 @@
       },
       "comboHits": [
         {
-          "damageMultiplier": 0.4,
-          "enduranceDamage": 4,
+          "damageMultiplier": 1.2,
+          "enduranceDamage": 12,
           "dealDamageTime": 233,
           "targetLockTime": 32,
           "vfx":"punch"
         },
+      
+        
         {
-          "damageMultiplier": 0.5,
-          "enduranceDamage": 4,
-          "dealDamageTime": 273,
-          "targetLockTime": 32,
-          "vfx":"punch"
-        },
-        {
-          "damageMultiplier": 0.3,
-          "enduranceDamage": 4,
-          "dealDamageTime": 313,
-          "targetLockTime": 32,
-          "vfx":"punch"
-        },
-        {
-          "damageMultiplier": 0.4,
-          "enduranceDamage": 4,
+          "damageMultiplier": 1.3,
+          "enduranceDamage": 13,
           "dealDamageTime": 520,
           "targetLockTime": 32,
           "vfx":"punch"
-        },
-        {
-          "damageMultiplier": 0.3,
-          "enduranceDamage": 4,
-          "dealDamageTime": 560,
-          "targetLockTime": 32,
-          "vfx":"punch"
-        },{
-          "damageMultiplier": 0.5,
-          "enduranceDamage": 4,
-          "dealDamageTime": 600,
-          "targetLockTime": 32,
-          "vfx":"punch"
         }
+        
       ]
     }
   ]

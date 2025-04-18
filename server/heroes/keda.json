@@ -66,7 +66,7 @@
               {
                 "id": "keda_ambush",
                 "time": 0,
-                "duration": 800,
+                "duration": 1000,
                 "position": {
                   "x": 0,
                   "y": 0,
@@ -113,8 +113,8 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 300,
-      "pounceException": "penetrate",
+      "pounceDuration": 100,
+      "pounceException": "null",
       "pounceTime": 64,
       "projectileId": null,
       "fullAnimationTime": 950,
@@ -157,8 +157,8 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 300,
-      "pounceException": "penetrate",
+      "pounceDuration": 100,
+      "pounceException": "null",
       "pounceTime": 132,
       "projectileId": null,
       "fullAnimationTime": 1000,
@@ -208,7 +208,7 @@
       "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 7,
-      "pounceDuration": 100,
+      "pounceDuration": 64,
       "pounceException": "penetrate",
       "pounceTime": 440,
       "projectileId": null,
@@ -238,8 +238,8 @@
         {
           "damageMultiplier": 2.2,
           "enduranceDamage": 15,
-          "dealDamageTime": 500,
-          "targetLockTime": 32,
+          "dealDamageTime": 550,
+          "targetLockTime": 450,
           "vfx":"slash"
         }
       ]
