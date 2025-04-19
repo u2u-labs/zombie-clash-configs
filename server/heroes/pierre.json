@@ -213,7 +213,7 @@
           "vfxId": "flameGround",
           "interval": 250,
           "duration": 2000,
-          "fixedDamage": 20,
+          "fixedDamage": 30,
           "delay": 0,
           "maxCount": 0,
           "coolDown": 0,

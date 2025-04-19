@@ -10,7 +10,7 @@
     }
   },
   "attributes": {
-    "maxHp": 2360,
+    "maxHp": 2460,
     "maxEndurance": 100,
     "enduranceRecoveryNeutral": 16,
     "enduranceRecoveryInCombat": 1,
@@ -44,7 +44,7 @@
       "projectileId": null,
       "fullAnimationTime": 1233,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 740,
+      "earlyCancelTime": 710,
       "vfxs": [
         {
           "id": "ronan_combo_0",
@@ -66,7 +66,7 @@
       },
       "comboHits": [
         {
-          "damageMultiplier": 1,
+          "damageMultiplier": 1.1,
           "enduranceDamage": 8,
           "dealDamageTime": 180,
           "targetLockTime": 32,
@@ -88,7 +88,7 @@
       "projectileId": null,
       "fullAnimationTime": 1283,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 771,
+      "earlyCancelTime": 740,
       "vfxs": [
         {
           "id": "ronan_combo_1",
@@ -110,7 +110,7 @@
       },
       "comboHits": [
         {
-          "damageMultiplier": 1,
+          "damageMultiplier": 1.1,
           "enduranceDamage": 8,
           "dealDamageTime": 250,
           "targetLockTime": 32,
@@ -132,7 +132,7 @@
       "projectileId": null,
       "fullAnimationTime": 1208,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 790,
+      "earlyCancelTime": 680,
       "vfxs": [
         {
           "id": "ronan_combo_2",
@@ -153,7 +153,7 @@
       },
       "comboHits": [
         {
-          "damageMultiplier": 0.8,
+          "damageMultiplier": 1.1,
           "enduranceDamage": 16,
           "dealDamageTime": 480,
           "targetLockTime": 32,
@@ -191,15 +191,15 @@
       ],
       "shapeType": 2,
       "sector": {
-        "range": 7,
+        "range": 6,
         "angle": 180,
         "angleOffset": 0
       },
       "comboHits": [
         {
-          "damageMultiplier": 3.5,
+          "damageMultiplier": 3,
           "enduranceDamage": 32,
-          "dealDamageTime": 700,
+          "dealDamageTime": 740,
           "targetLockTime": 32,
           "vfx":"slash"
         }
