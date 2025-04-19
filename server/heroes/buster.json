@@ -31,7 +31,7 @@
     "effects": [
       {
         "duration": 0,
-        "time": 55,
+        "time": 128,
         "fixedDamage": 20,
         "collider": {
           "shapeType": 0,
@@ -75,12 +75,12 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 128,
+      "pounceDuration": 150,
       "pounceException": null,
       "projectileId": null,
       "fullAnimationTime": 833,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 510,
+      "earlyCancelTime": 540,
       "pounceTime": 100,
       "vfxs": [
         {
@@ -119,7 +119,7 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 4,
-      "pounceDuration": 150,
+      "pounceDuration": 200,
       "pounceException": "penetrate",
       "projectileId": null,
       "fullAnimationTime": 933,
@@ -163,7 +163,7 @@
       "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 128,
+      "pounceDuration": 150,
       "pounceException": null,
       "projectileId": null,
       "fullAnimationTime": 1167,
@@ -178,7 +178,7 @@
           "position": {
             "x": 0,
             "y": 0,
-            "z": 3
+            "z": 0
           },
           "follow": true
         }
@@ -195,7 +195,7 @@
           "enduranceDamage": 12,
           "dealDamageTime": 233,
           "targetLockTime": 32,
-          "vfx":"punch"
+          "vfx":"shot"
         },
       
         
@@ -204,7 +204,7 @@
           "enduranceDamage": 13,
           "dealDamageTime": 520,
           "targetLockTime": 32,
-          "vfx":"punch"
+          "vfx":"shot"
         }
         
       ]

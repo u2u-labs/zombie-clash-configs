@@ -37,7 +37,7 @@
       "detectRange": 5,
       "isHeavyAttack": false,
       "isRanged": false,
-      "pounceRange": 4,
+      "pounceRange": 3.5,
       "pounceDuration": 150,
       "pounceExeption": null,
       "pounceTime": 100,
@@ -60,7 +60,7 @@
       ],
       "shapeType": 2,
       "sector": {
-        "range": 5,
+        "range": 4.5,
         "angle": 135,
         "angleOffset": 0
       },
@@ -81,7 +81,7 @@
       "detectRange": 5,
       "isHeavyAttack": false,
       "isRanged": false,
-      "pounceRange": 4,
+      "pounceRange": 3.5,
       "pounceDuration": 150,
       "pounceExeption": null,
       "pounceTime": 110,
@@ -104,7 +104,7 @@
       ],
       "shapeType": 2,
       "sector": {
-        "range": 5,
+        "range": 4.5,
         "angle": 225,
         "angleOffset": 22.5
       },
@@ -126,13 +126,13 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 5,
-      "pounceDuration": 125,
+      "pounceDuration": 150,
       "pounceExeption": null,
       "pounceTime": 280,
       "projectileId": null,
       "fullAnimationTime": 1208,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 650,
+      "earlyCancelTime": 720,
       "vfxs": [
         {
           "id": "ronan_combo_2",
@@ -148,7 +148,7 @@
       ],
       "shapeType": 0,
       "circle": {
-        "range": 1.5,
+        "range": 1.75,
         "radius": 3
       },
       "comboHits": [
