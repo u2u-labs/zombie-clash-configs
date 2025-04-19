@@ -19,8 +19,8 @@
     "enduranceRecoveryInCombat": 1,
     "hpPercentRecoveryNeutral": 0.13,
     "hpPercentRecoveryOnKill": 0.1,
-    "baseDamage": 130,
-    "moveSpeed": 7.8,
+    "baseDamage": 115,
+    "moveSpeed": 7.7,
     "maxEpc": 30,
     "size": 1
   },
@@ -88,13 +88,13 @@
             ],
             "shapeType": 0,
             "circle": {
-              "radius": 5.5
+              "radius": 3.25
             },
             "comboHits": [
               {
                 "damageMultiplier": 1.8,
                 "enduranceDamage": 5,
-                "dealDamageTime": 540,
+                "dealDamageTime": 450,
                 "targetLockTime": 32,
                 "vfx":"slash"
               }
@@ -113,8 +113,8 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 100,
-      "pounceException": null,
+      "pounceDuration": 128,
+      "pounceException": "penetrate",
       "pounceTime": 64,
       "projectileId": null,
       "fullAnimationTime": 950,
@@ -157,8 +157,8 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 100,
-      "pounceException": null,
+      "pounceDuration": 128,
+      "pounceException": "penetrate",
       "pounceTime": 132,
       "projectileId": null,
       "fullAnimationTime": 1000,
@@ -239,7 +239,7 @@
           "damageMultiplier": 2.2,
           "enduranceDamage": 15,
           "dealDamageTime": 550,
-          "targetLockTime": 450,
+          "targetLockTime": 128,
           "vfx":"slash"
         }
       ]

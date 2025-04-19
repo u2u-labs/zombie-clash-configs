@@ -155,7 +155,7 @@
         {
           "damageMultiplier": 0.8,
           "enduranceDamage": 16,
-          "dealDamageTime": 500,
+          "dealDamageTime": 480,
           "targetLockTime": 32,
           "vfx":"shot"
         }
@@ -199,7 +199,7 @@
         {
           "damageMultiplier": 3.5,
           "enduranceDamage": 32,
-          "dealDamageTime": 800,
+          "dealDamageTime": 700,
           "targetLockTime": 32,
           "vfx":"slash"
         }
