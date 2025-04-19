@@ -178,7 +178,7 @@
           "position": {
             "x": 0,
             "y": 0,
-            "z": 3.75
+            "z": 3.5
           },
           "follow": true
         }
@@ -186,7 +186,7 @@
       "shapeType": 1,
       "rectangle": {
         "range": 6,
-        "width": 4,
+        "width": 3,
         "forwardOffset": 0
       },
       "comboHits": [

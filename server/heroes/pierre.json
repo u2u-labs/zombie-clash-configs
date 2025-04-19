@@ -136,7 +136,7 @@
       "projectileId": null,
       "fullAnimationTime": 1467,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 755,
+      "earlyCancelTime": 725,
       "vfxs": [
         {
           "id": "pierre_combo_2",
