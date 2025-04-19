@@ -75,12 +75,12 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 200,
+      "pounceDuration": 128,
       "pounceException": null,
       "projectileId": null,
       "fullAnimationTime": 833,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 553,
+      "earlyCancelTime": 510,
       "pounceTime": 100,
       "vfxs": [
         {
@@ -118,13 +118,13 @@
       "detectRange": 5,
       "isHeavyAttack": false,
       "isRanged": false,
-      "pounceRange": 3,
-      "pounceDuration": 200,
+      "pounceRange": 4,
+      "pounceDuration": 150,
       "pounceException": "penetrate",
       "projectileId": null,
       "fullAnimationTime": 933,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 670,
+      "earlyCancelTime": 620,
       "pounceTime": 64,
       "vfxs": [
         {
@@ -163,12 +163,12 @@
       "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 200,
+      "pounceDuration": 128,
       "pounceException": null,
       "projectileId": null,
       "fullAnimationTime": 1167,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 866,
+      "earlyCancelTime": 1000,
       "pounceTime": 132,
       "vfxs": [
         {
@@ -178,7 +178,7 @@
           "position": {
             "x": 0,
             "y": 0,
-            "z": 2
+            "z": 3
           },
           "follow": true
         }

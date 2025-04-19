@@ -44,7 +44,7 @@
       "projectileId": null,
       "fullAnimationTime": 1233,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 710,
+      "earlyCancelTime": 650,
       "vfxs": [
         {
           "id": "ronan_combo_0",
@@ -88,7 +88,7 @@
       "projectileId": null,
       "fullAnimationTime": 1283,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 740,
+      "earlyCancelTime": 690,
       "vfxs": [
         {
           "id": "ronan_combo_1",
@@ -132,7 +132,7 @@
       "projectileId": null,
       "fullAnimationTime": 1208,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 680,
+      "earlyCancelTime": 650,
       "vfxs": [
         {
           "id": "ronan_combo_2",
@@ -175,7 +175,7 @@
       "projectileId": null,
       "fullAnimationTime": 2175,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 1780,
+      "earlyCancelTime": 1600,
       "vfxs": [
         {
           "id": "ronan_combo_3",
