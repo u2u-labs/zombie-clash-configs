@@ -19,7 +19,7 @@
     "enduranceRecoveryInCombat": 1,
     "hpPercentRecoveryNeutral": 0.13,
     "hpPercentRecoveryOnKill": 0.1,
-    "baseDamage": 115,
+    "baseDamage": 120,
     "moveSpeed": 7.7,
     "maxEpc": 30,
     "size": 1
@@ -135,7 +135,7 @@
       ],
       "shapeType": 2,
       "sector": {
-        "range": 4,
+        "range": 3.5,
         "angle": 180,
         "angleOffset": 0
       },
@@ -179,7 +179,7 @@
       ],
       "shapeType": 2,
       "sector": {
-        "range": 4,
+        "range": 3.5,
         "angle": 180,
         "angleOffset": 0
       },
@@ -231,7 +231,7 @@
       "shapeType": 2,
       "sector": {
         "range": 4,
-        "angle": 270,
+        "angle": 359,
         "angleOffset": 0
       },
       "comboHits": [
