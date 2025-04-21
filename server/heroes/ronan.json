@@ -10,7 +10,7 @@
     }
   },
   "attributes": {
-    "maxHp": 2360,
+    "maxHp": 2460,
     "maxEndurance": 100,
     "enduranceRecoveryNeutral": 16,
     "enduranceRecoveryInCombat": 1,
@@ -24,7 +24,7 @@
   "dash": {
     "description": "Ronan dashes forward.",
     "unblockAble": true,
-    "duration": 500,
+    "duration": 450,
     "distance": 8,
     "neutralCooldown": 3000,
     "combatCooldown": 6000
@@ -37,13 +37,14 @@
       "detectRange": 5,
       "isHeavyAttack": false,
       "isRanged": false,
-      "pounceRange": 3,
-      "pounceDuration": 200,
-      "pounceTime": 32,
+      "pounceRange": 3.5,
+      "pounceDuration": 150,
+      "pounceExeption": null,
+      "pounceTime": 100,
       "projectileId": null,
       "fullAnimationTime": 1233,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 720,
+      "earlyCancelTime": 650,
       "vfxs": [
         {
           "id": "ronan_combo_0",
@@ -59,16 +60,17 @@
       ],
       "shapeType": 2,
       "sector": {
-        "range": 5,
+        "range": 4.5,
         "angle": 135,
         "angleOffset": 0
       },
       "comboHits": [
         {
-          "damageMultiplier": 1,
+          "damageMultiplier": 1.1,
           "enduranceDamage": 8,
-          "dealDamageTime": 450,
-          "targetLockTime": 32
+          "dealDamageTime": 180,
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
@@ -79,13 +81,14 @@
       "detectRange": 5,
       "isHeavyAttack": false,
       "isRanged": false,
-      "pounceRange": 3,
-      "pounceDuration": 200,
-      "pounceTime": 32,
+      "pounceRange": 3.5,
+      "pounceDuration": 150,
+      "pounceExeption": null,
+      "pounceTime": 110,
       "projectileId": null,
-      "fullAnimationTime": 1285,
+      "fullAnimationTime": 1283,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 760,
+      "earlyCancelTime": 690,
       "vfxs": [
         {
           "id": "ronan_combo_1",
@@ -101,16 +104,17 @@
       ],
       "shapeType": 2,
       "sector": {
-        "range": 5,
+        "range": 4.5,
         "angle": 225,
         "angleOffset": 22.5
       },
       "comboHits": [
         {
-          "damageMultiplier": 1,
+          "damageMultiplier": 1.1,
           "enduranceDamage": 8,
-          "dealDamageTime": 490,
-          "targetLockTime": 32
+          "dealDamageTime": 250,
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
@@ -121,13 +125,14 @@
       "detectRange": 5,
       "isHeavyAttack": false,
       "isRanged": false,
-      "pounceRange": 4.5,
-      "pounceDuration": 200,
-      "pounceTime": 32,
+      "pounceRange": 5,
+      "pounceDuration": 150,
+      "pounceExeption": null,
+      "pounceTime": 280,
       "projectileId": null,
-      "fullAnimationTime": 1205,
+      "fullAnimationTime": 1208,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 870,
+      "earlyCancelTime": 720,
       "vfxs": [
         {
           "id": "ronan_combo_2",
@@ -143,15 +148,16 @@
       ],
       "shapeType": 0,
       "circle": {
-        "range": 1.5,
+        "range": 1.75,
         "radius": 3
       },
       "comboHits": [
         {
-          "damageMultiplier": 0.8,
+          "damageMultiplier": 1.1,
           "enduranceDamage": 16,
-          "dealDamageTime": 600,
-          "targetLockTime": 32
+          "dealDamageTime": 480,
+          "targetLockTime": 32,
+          "vfx":"shot"
         }
       ]
     },
@@ -163,12 +169,13 @@
       "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 3,
-      "pounceDuration": 200,
-      "pounceTime": 32,
+      "pounceDuration": 150,
+      "pounceExeption": null,
+      "pounceTime": 625,
       "projectileId": null,
-      "fullAnimationTime": 2500,
+      "fullAnimationTime": 2175,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 1800,
+      "earlyCancelTime": 1600,
       "vfxs": [
         {
           "id": "ronan_combo_3",
@@ -184,16 +191,17 @@
       ],
       "shapeType": 2,
       "sector": {
-        "range": 7,
+        "range": 6,
         "angle": 180,
         "angleOffset": 0
       },
       "comboHits": [
         {
-          "damageMultiplier": 3.5,
+          "damageMultiplier": 3,
           "enduranceDamage": 32,
-          "dealDamageTime": 570,
-          "targetLockTime": 32
+          "dealDamageTime": 740,
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     }

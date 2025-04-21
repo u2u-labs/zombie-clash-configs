@@ -28,7 +28,7 @@
   "dash": {
     "description": "Pierre dashes forward.",
     "unblockAble": true,
-    "duration": 500,
+    "duration": 450,
     "distance": 8,
     "neutralCooldown": 3000,
     "combatCooldown": 6000
@@ -42,8 +42,9 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 4,
-      "pounceDuration": 300,
-      "pounceTime": 32,
+      "pounceDuration": 150,
+      "pounceExeption": null,
+      "pounceTime": 96,
       "projectileId": null,
       "fullAnimationTime": 933,
       "allowEarlyCancel": true,
@@ -72,7 +73,8 @@
           "damageMultiplier": 0.8,
           "enduranceDamage": 4,
           "dealDamageTime": 221,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
@@ -84,7 +86,8 @@
       "isHeavyAttack": false,
       "isRanged": false,
       "pounceRange": 2,
-      "pounceDuration": 300,
+      "pounceDuration": 150,
+      "pounceExeption": null,
       "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 1167,
@@ -114,7 +117,8 @@
           "damageMultiplier": 1,
           "enduranceDamage": 8,
           "dealDamageTime": 156,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
@@ -126,12 +130,13 @@
       "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 4,
-      "pounceDuration": 300,
+      "pounceDuration": 150,
+      "pounceExeption": null,
       "pounceTime": 32,
       "projectileId": null,
       "fullAnimationTime": 1467,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 755,
+      "earlyCancelTime": 725,
       "vfxs": [
         {
           "id": "pierre_combo_2",
@@ -156,20 +161,22 @@
           "damageMultiplier": 1.6,
           "enduranceDamage": 12,
           "dealDamageTime": 218,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
     {
       "name": "Combo IV",
-      "description": "Pierre summons a magical music note from above. When the note falls down, it deals {comboHits[0].damageMultiplier|color:green|%} ATK DMG in a large area. The area also burns for {fxSpawners[0].duration|sec|color:yellow} seconds, dealing {fxSpawners[0].fixedDamage|color:green} DMG every {fxSpawners[0].fixedDamage|color:yellow} seconds.",
+      "description": "Pierre summons a magical force that strikes from above dealing {comboHits[0].damageMultiplier|color:green|%} ATK DMG in a large area. The area also burns for {fxSpawners[0].duration|sec|color:yellow} seconds, dealing {fxSpawners[0].fixedDamage|color:green} DMG every {fxSpawners[0].fixedDamage|color:yellow} seconds.",
       "animationId": 3,
       "detectRange": 5,
       "isHeavyAttack": true,
       "isRanged": false,
       "pounceRange": 2,
-      "pounceDuration": 300,
-      "pounceTime": 32,
+      "pounceDuration": 150,
+      "pounceExeption": null,
+      "pounceTime": 96,
       "projectileId": null,
       "fullAnimationTime": 1362,
       "allowEarlyCancel": true,
@@ -182,7 +189,7 @@
           "position": {
             "x": 0,
             "y": 0,
-            "z": 0
+            "z": 4
           },
           "follow": false
         }
@@ -197,7 +204,8 @@
           "damageMultiplier": 2,
           "enduranceDamage": 20,
           "dealDamageTime": 379,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"explosion"
         }
       ],
       "fxSpawners": [
@@ -205,7 +213,7 @@
           "vfxId": "flameGround",
           "interval": 250,
           "duration": 2000,
-          "fixedDamage": 20,
+          "fixedDamage": 30,
           "delay": 0,
           "maxCount": 0,
           "coolDown": 0,

@@ -4,7 +4,7 @@
   "class": "Assassin",
   "description": "",
   "kedaSpecial": {
-    "description": "The cooldown of Keda's Dash while out of combat is 3 seconds and in combat is 6 seconds."
+    "description": "The cooldown of Keda's Dash while in of combat is reduced by 1 second."
   },
   "collider": {
     "shapeType": 0,
@@ -19,22 +19,22 @@
     "enduranceRecoveryInCombat": 1,
     "hpPercentRecoveryNeutral": 0.13,
     "hpPercentRecoveryOnKill": 0.1,
-    "baseDamage": 140,
-    "moveSpeed": 8,
+    "baseDamage": 120,
+    "moveSpeed": 7.7,
     "maxEpc": 30,
     "size": 1
   },
   "dash": {
     "description": "Keda dashes forward and enters \"Stalking\" state for {buffs[0].duration|color:yellow|sec} seconds. During \"Stalking\" state, Keda gains {buffs[0].statModifiers[0].value|color:green|%} movement speed and his next basic attack transforms into <color=\"red\">Ambush</color>\".\n\n<color=\"red\">Ambush</color>: Keda jumps onto his target and strikes from above, dealing {buffs[0].comboSegments[0].comboHits[0].damageMultiplier|color:green|%} ATK DMG. ",
     "unblockAble": true,
-    "duration": 500,
+    "duration": 450,
     "distance": 8,
-    "neutralCooldown": 2000,
-    "combatCooldown": 4000,
+    "neutralCooldown": 3000,
+    "combatCooldown": 5000,
     "buffs": [
       {
         "type": "ambush",
-        "duration": 2500,
+        "duration": 1500,
         "interval": 0,
         "triggerImmediately": false,
         "negative": false,
@@ -55,17 +55,29 @@
             "isHeavyAttack": false,
             "isRanged": false,
             "pounceRange": 11,
-            "pounceDuration": 150,
+            "pounceDuration": 64,
+            "pounceException": "aim",
             "projectileId": null,
-            "fullAnimationTime": 1450,
+            "fullAnimationTime": 1317,
             "allowEarlyCancel": true,
-            "earlyCancelTime": 1200,
+            "earlyCancelTime": 1080,
             "pounceTime": 32,
             "vfxs": [
               {
                 "id": "keda_ambush",
                 "time": 0,
-                "duration": 800,
+                "duration": 1000,
+                "position": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "follow": true
+              },
+              {
+                "id": "keda_ambush_self",
+                "time": 0,
+                "duration": 1000,
                 "position": {
                   "x": 0,
                   "y": 0,
@@ -76,14 +88,15 @@
             ],
             "shapeType": 0,
             "circle": {
-              "radius": 6
+              "radius": 3.25
             },
             "comboHits": [
               {
-                "damageMultiplier": 1.8,
+                "damageMultiplier": 1.6,
                 "enduranceDamage": 5,
-                "dealDamageTime": 440,
-                "targetLockTime": 32
+                "dealDamageTime": 450,
+                "targetLockTime": 32,
+                "vfx":"slash"
               }
             ]
           }
@@ -99,11 +112,12 @@
       "detectRange": 5,
       "isHeavyAttack": false,
       "isRanged": false,
-      "pounceRange": 3,
-      "pounceDuration": 300,
-      "pounceTime": 32,
+      "pounceRange": 2.5,
+      "pounceDuration": 128,
+      "pounceException": "penetrate",
+      "pounceTime": 64,
       "projectileId": null,
-      "fullAnimationTime": 945,
+      "fullAnimationTime": 950,
       "allowEarlyCancel": true,
       "earlyCancelTime": 515,
       "vfxs": [
@@ -121,7 +135,7 @@
       ],
       "shapeType": 2,
       "sector": {
-        "range": 4,
+        "range": 3.5,
         "angle": 180,
         "angleOffset": 0
       },
@@ -130,7 +144,8 @@
           "damageMultiplier": 1,
           "enduranceDamage": 5,
           "dealDamageTime": 218,
-          "targetLockTime": 32
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
@@ -141,13 +156,14 @@
       "detectRange": 5,
       "isHeavyAttack": false,
       "isRanged": false,
-      "pounceRange": 3,
-      "pounceDuration": 300,
-      "pounceTime": 32,
+      "pounceRange": 2.5,
+      "pounceDuration": 128,
+      "pounceException": "penetrate",
+      "pounceTime": 132,
       "projectileId": null,
-      "fullAnimationTime": 1201,
+      "fullAnimationTime": 1000,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 621,
+      "earlyCancelTime": 570,
       "vfxs": [
         {
           "id": "keda_combo_1",
@@ -163,7 +179,7 @@
       ],
       "shapeType": 2,
       "sector": {
-        "range": 4,
+        "range": 3.5,
         "angle": 180,
         "angleOffset": 0
       },
@@ -171,14 +187,16 @@
         {
           "damageMultiplier": 0.7,
           "enduranceDamage": 5,
-          "dealDamageTime": 230,
-          "targetLockTime": 32
+          "dealDamageTime": 270,
+          "targetLockTime": 32,
+          "vfx":"slash"
         },
         {
           "damageMultiplier": 0.7,
           "enduranceDamage": 5,
-          "dealDamageTime": 316,
-          "targetLockTime": 32
+          "dealDamageTime": 280,
+          "targetLockTime": 32,
+          "vfx":"slash"
         }
       ]
     },
@@ -189,18 +207,19 @@
       "detectRange": 5,
       "isHeavyAttack": true,
       "isRanged": false,
-      "pounceRange": 4,
-      "pounceDuration": 400,
-      "pounceTime": 32,
+      "pounceRange": 7.5,
+      "pounceDuration": 64,
+      "pounceException": "penetrate",
+      "pounceTime": 440,
       "projectileId": null,
-      "fullAnimationTime": 1213,
+      "fullAnimationTime": 1450,
       "allowEarlyCancel": true,
       "earlyCancelTime": 932,
       "vfxs": [
         {
           "id": "keda_combo_2",
           "time": 0,
-          "duration": 750,
+          "duration": 1000,
           "position": {
             "x": 0,
             "y": 0,
@@ -212,15 +231,16 @@
       "shapeType": 2,
       "sector": {
         "range": 4,
-        "angle": 270,
+        "angle": 359,
         "angleOffset": 0
       },
       "comboHits": [
         {
           "damageMultiplier": 2.2,
           "enduranceDamage": 15,
-          "dealDamageTime": 326,
-          "targetLockTime": 32
+          "dealDamageTime": 550,
+          "targetLockTime": 128,
+          "vfx":"slash"
         }
       ]
     }
