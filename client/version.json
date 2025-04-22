@@ -1,5 +1,6 @@
 {
-    "version": "0.0.1",
-    "googlePlayUrl": "",
-    "appStoreUrl": ""
+  "version": "0.0.1",
+  "maintenance": false,
+  "googlePlayUrl": "",
+  "appStoreUrl": ""
 }
