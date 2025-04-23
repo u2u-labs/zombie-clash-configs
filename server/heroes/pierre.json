@@ -189,9 +189,9 @@
           "position": {
             "x": 0,
             "y": 0,
-            "z": 4
+            "z": 1
           },
-          "follow": false
+          "follow": true
         }
       ],
       "shapeType": 0,
