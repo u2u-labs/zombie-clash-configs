@@ -62,7 +62,7 @@
           "y": 0,
           "z": 0
         },
-        "follow": true
+        "constraint":"root"
       }
     ]
   },
@@ -92,7 +92,7 @@
             "y": 0,
             "z": 0
           },
-          "follow": true
+          "constraint":"root"
         }
       ],
       "shapeType": 1,
@@ -136,7 +136,7 @@
             "y": 0,
             "z": 0
           },
-          "follow": true
+          "constraint":"root"
         }
       ],
       "shapeType": 1,
@@ -180,7 +180,7 @@
             "y": 0,
             "z": 0
           },
-          "follow": true
+          "constraint":"root"
         }
       ],
       "shapeType": 1,

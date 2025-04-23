@@ -59,7 +59,7 @@
             "y": 0,
             "z": 0
           },
-          "follow": true
+          "constraint":"root"
         }
       ],
       "shapeType": 1,
@@ -103,7 +103,7 @@
             "y": 0,
             "z": 0
           },
-          "follow": true
+          "constraint":"root"
         }
       ],
       "shapeType": 2,
@@ -147,7 +147,7 @@
             "y": 0,
             "z": 0
           },
-          "follow": true
+          "constraint":"root"
         }
       ],
       "shapeType": 1,
@@ -189,9 +189,9 @@
           "position": {
             "x": 0,
             "y": 0,
-            "z": 1
+            "z": 0
           },
-          "follow": true
+          "constraint":"aoe"
         }
       ],
       "shapeType": 0,
