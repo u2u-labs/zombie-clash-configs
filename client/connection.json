@@ -1,6 +1,6 @@
 {
     "session":{
-        "autoRefreshInterval":1200000
+        "autoRefreshInterval":43200000
     },
     "telegramAuthUrl":"https://t.me/layerg_ua_verification_stg_bot?start=login-4-49C29C6B716aAf9fFBDDc548448A7f6dAe187A06"
 }
