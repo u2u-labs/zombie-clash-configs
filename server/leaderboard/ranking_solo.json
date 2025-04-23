@@ -358,7 +358,7 @@
   },
   {
     "id": 22,
-    "league": "grandmaster",
+    "league": "grandMaster",
     "name": "Grand Master",
     "min": 4000,
     "max": 9999,
