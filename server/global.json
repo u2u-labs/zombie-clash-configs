@@ -1,4 +1,6 @@
 {
+  "eloGap": 500,
+  "reconnectTimeout": 60000,
   "maxMatchPointStorage": 1000,
   "redeemCost": 200,
   "dailyExchanges": 30,
