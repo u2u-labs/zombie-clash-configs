@@ -84,7 +84,7 @@
               {
                 "damageMultiplier": 1.6,
                 "enduranceDamage": 5,
-                "dealDamageTime": 450,
+                "dealDamageTime": 400,
                 "targetLockTime": 32,
                 "vfx":"slash"
               }
@@ -109,7 +109,7 @@
       "projectileId": null,
       "fullAnimationTime": 950,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 515,
+      "earlyCancelTime": 450,
       "vfxs": [
         {
           "id": "keda_combo_0",
@@ -133,7 +133,7 @@
         {
           "damageMultiplier": 1,
           "enduranceDamage": 5,
-          "dealDamageTime": 218,
+          "dealDamageTime": 190,
           "targetLockTime": 32,
           "vfx":"slash"
         }
@@ -153,7 +153,7 @@
       "projectileId": null,
       "fullAnimationTime": 1000,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 570,
+      "earlyCancelTime": 500,
       "vfxs": [
         {
           "id": "keda_combo_1",
@@ -177,14 +177,14 @@
         {
           "damageMultiplier": 0.7,
           "enduranceDamage": 5,
-          "dealDamageTime": 270,
+          "dealDamageTime": 220,
           "targetLockTime": 32,
           "vfx":"slash"
         },
         {
           "damageMultiplier": 0.7,
           "enduranceDamage": 5,
-          "dealDamageTime": 280,
+          "dealDamageTime": 240,
           "targetLockTime": 32,
           "vfx":"slash"
         }
@@ -204,7 +204,7 @@
       "projectileId": null,
       "fullAnimationTime": 1450,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 932,
+      "earlyCancelTime": 900,
       "vfxs": [
         {
           "id": "keda_combo_2",

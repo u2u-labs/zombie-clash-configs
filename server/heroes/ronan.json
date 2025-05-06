@@ -44,7 +44,7 @@
       "projectileId": null,
       "fullAnimationTime": 1233,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 650,
+      "earlyCancelTime": 580,
       "vfxs": [
         {
           "id": "ronan_combo_0",
@@ -68,7 +68,7 @@
         {
           "damageMultiplier": 1.1,
           "enduranceDamage": 8,
-          "dealDamageTime": 180,
+          "dealDamageTime": 150,
           "targetLockTime": 32,
           "vfx":"slash"
         }
@@ -88,7 +88,7 @@
       "projectileId": null,
       "fullAnimationTime": 1283,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 690,
+      "earlyCancelTime": 610,
       "vfxs": [
         {
           "id": "ronan_combo_1",
@@ -112,7 +112,7 @@
         {
           "damageMultiplier": 1.1,
           "enduranceDamage": 8,
-          "dealDamageTime": 250,
+          "dealDamageTime": 210,
           "targetLockTime": 32,
           "vfx":"slash"
         }
@@ -132,7 +132,7 @@
       "projectileId": null,
       "fullAnimationTime": 1208,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 720,
+      "earlyCancelTime": 670,
       "vfxs": [
         {
           "id": "ronan_combo_2",
@@ -155,7 +155,7 @@
         {
           "damageMultiplier": 1.1,
           "enduranceDamage": 16,
-          "dealDamageTime": 480,
+          "dealDamageTime": 440,
           "targetLockTime": 32,
           "vfx":"shot"
         }
@@ -175,7 +175,7 @@
       "projectileId": null,
       "fullAnimationTime": 2175,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 1600,
+      "earlyCancelTime": 1500,
       "vfxs": [
         {
           "id": "ronan_combo_3",
@@ -199,7 +199,7 @@
         {
           "damageMultiplier": 3,
           "enduranceDamage": 32,
-          "dealDamageTime": 740,
+          "dealDamageTime": 700,
           "targetLockTime": 32,
           "vfx":"slash"
         }

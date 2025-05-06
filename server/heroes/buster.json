@@ -80,7 +80,7 @@
       "projectileId": null,
       "fullAnimationTime": 833,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 570,
+      "earlyCancelTime": 500,
       "pounceTime": 100,
       "vfxs": [
         {
@@ -124,7 +124,7 @@
       "projectileId": null,
       "fullAnimationTime": 933,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 630,
+      "earlyCancelTime": 560,
       "pounceTime": 64,
       "vfxs": [
         {
