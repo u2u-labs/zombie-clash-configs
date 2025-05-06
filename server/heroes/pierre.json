@@ -59,7 +59,7 @@
             "y": 0,
             "z": 0
           },
-          "follow": true
+          "constraint":"root"
         }
       ],
       "shapeType": 1,
@@ -72,7 +72,7 @@
         {
           "damageMultiplier": 0.8,
           "enduranceDamage": 4,
-          "dealDamageTime": 221,
+          "dealDamageTime": 200,
           "targetLockTime": 32,
           "vfx":"slash"
         }
@@ -103,7 +103,7 @@
             "y": 0,
             "z": 0
           },
-          "follow": true
+          "constraint":"root"
         }
       ],
       "shapeType": 2,
@@ -147,7 +147,7 @@
             "y": 0,
             "z": 0
           },
-          "follow": true
+          "constraint":"root"
         }
       ],
       "shapeType": 1,
@@ -160,7 +160,7 @@
         {
           "damageMultiplier": 1.6,
           "enduranceDamage": 12,
-          "dealDamageTime": 218,
+          "dealDamageTime": 200,
           "targetLockTime": 32,
           "vfx":"slash"
         }
@@ -189,9 +189,9 @@
           "position": {
             "x": 0,
             "y": 0,
-            "z": 4
+            "z": 0
           },
-          "follow": false
+          "constraint":"aoe"
         }
       ],
       "shapeType": 0,
@@ -203,7 +203,7 @@
         {
           "damageMultiplier": 2,
           "enduranceDamage": 20,
-          "dealDamageTime": 379,
+          "dealDamageTime": 350,
           "targetLockTime": 32,
           "vfx":"explosion"
         }
