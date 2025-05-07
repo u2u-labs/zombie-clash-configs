@@ -44,11 +44,11 @@
       "pounceRange": 4,
       "pounceDuration": 150,
       "pounceExeption": null,
-      "pounceTime": 96,
+      "pounceTime": 128,
       "projectileId": null,
       "fullAnimationTime": 933,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 620,
+      "earlyCancelTime": 600,
       "vfxs": [
         {
           "id": "pierre_combo_0",
@@ -88,11 +88,11 @@
       "pounceRange": 2,
       "pounceDuration": 150,
       "pounceExeption": null,
-      "pounceTime": 32,
+      "pounceTime": 128,
       "projectileId": null,
       "fullAnimationTime": 1167,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 650,
+      "earlyCancelTime": 630,
       "vfxs": [
         {
           "id": "pierre_combo_1",
@@ -132,11 +132,11 @@
       "pounceRange": 4,
       "pounceDuration": 150,
       "pounceExeption": null,
-      "pounceTime": 32,
+      "pounceTime": 128,
       "projectileId": null,
       "fullAnimationTime": 1467,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 725,
+      "earlyCancelTime": 700,
       "vfxs": [
         {
           "id": "pierre_combo_2",
@@ -176,11 +176,11 @@
       "pounceRange": 2,
       "pounceDuration": 150,
       "pounceExeption": null,
-      "pounceTime": 96,
+      "pounceTime": 128,
       "projectileId": null,
       "fullAnimationTime": 1362,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 1282,
+      "earlyCancelTime": 1240,
       "vfxs": [
         {
           "id": "pierre_combo_3",

@@ -61,7 +61,7 @@
       "fullAnimationTime": 1000,
       "allowEarlyCancel": true,
       "earlyCancelTime": 712,
-      "pounceTime": 32,
+      "pounceTime": 128,
       "vfxs": [
         {
           "id": "lucas_combo_0",
@@ -106,7 +106,7 @@
       "fullAnimationTime": 1433,
       "allowEarlyCancel": true,
       "earlyCancelTime": 960,
-      "pounceTime": 32,
+      "pounceTime": 128,
       "vfxs": [
         {
           "id": "lucas_combo_1",
@@ -150,7 +150,7 @@
       "fullAnimationTime": 1900,
       "allowEarlyCancel": true,
       "earlyCancelTime": 1120,
-      "pounceTime": 16,
+      "pounceTime": 128,
       "vfxs": [
         {
           "id": "lucas_combo_2",

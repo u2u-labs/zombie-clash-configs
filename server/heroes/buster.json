@@ -80,8 +80,8 @@
       "projectileId": null,
       "fullAnimationTime": 833,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 500,
-      "pounceTime": 100,
+      "earlyCancelTime": 470,
+      "pounceTime": 128,
       "vfxs": [
         {
           "id": "buster_combo_0",
@@ -124,8 +124,8 @@
       "projectileId": null,
       "fullAnimationTime": 933,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 560,
-      "pounceTime": 64,
+      "earlyCancelTime": 530,
+      "pounceTime": 128,
       "vfxs": [
         {
           "id": "buster_combo_1",
@@ -168,8 +168,8 @@
       "projectileId": null,
       "fullAnimationTime": 1167,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 1050,
-      "pounceTime": 132,
+      "earlyCancelTime": 1000,
+      "pounceTime": 128,
       "vfxs": [
         {
           "id": "buster_combo_2",

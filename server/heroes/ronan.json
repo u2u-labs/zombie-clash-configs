@@ -40,11 +40,11 @@
       "pounceRange": 3.5,
       "pounceDuration": 150,
       "pounceExeption": null,
-      "pounceTime": 100,
+      "pounceTime": 128,
       "projectileId": null,
       "fullAnimationTime": 1233,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 580,
+      "earlyCancelTime": 560,
       "vfxs": [
         {
           "id": "ronan_combo_0",
@@ -84,11 +84,11 @@
       "pounceRange": 3.5,
       "pounceDuration": 150,
       "pounceExeption": null,
-      "pounceTime": 110,
+      "pounceTime": 128,
       "projectileId": null,
       "fullAnimationTime": 1283,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 610,
+      "earlyCancelTime": 590,
       "vfxs": [
         {
           "id": "ronan_combo_1",
@@ -132,7 +132,7 @@
       "projectileId": null,
       "fullAnimationTime": 1208,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 670,
+      "earlyCancelTime": 650,
       "vfxs": [
         {
           "id": "ronan_combo_2",
@@ -175,7 +175,7 @@
       "projectileId": null,
       "fullAnimationTime": 2175,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 1500,
+      "earlyCancelTime": 1400,
       "vfxs": [
         {
           "id": "ronan_combo_3",

@@ -105,7 +105,7 @@
       "pounceRange": 2.5,
       "pounceDuration": 128,
       "pounceException": "penetrate",
-      "pounceTime": 64,
+      "pounceTime": 128,
       "projectileId": null,
       "fullAnimationTime": 950,
       "allowEarlyCancel": true,
