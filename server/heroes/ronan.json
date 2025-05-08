@@ -187,6 +187,28 @@
             "z": 0
           },
           "constraint":"root"
+        },
+        {
+          "id": "ronan_combo_3_indicator",
+          "time": 0,
+          "duration": 1000,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "constraint":"root"
+        },
+        {
+          "id": "ronan_combo_3_hand",
+          "time": 0,
+          "duration": 500,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "constraint":"r_hand"
         }
       ],
       "shapeType": 2,
