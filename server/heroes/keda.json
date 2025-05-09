@@ -197,7 +197,7 @@
       "detectRange": 5,
       "isHeavyAttack": true,
       "isRanged": false,
-      "pounceRange": 7.5,
+      "pounceRange": 8,
       "pounceDuration": 64,
       "pounceException": "penetrate",
       "pounceTime": 440,
@@ -226,7 +226,7 @@
       },
       "comboHits": [
         {
-          "damageMultiplier": 2.2,
+          "damageMultiplier": 1.9,
           "enduranceDamage": 15,
           "dealDamageTime": 550,
           "targetLockTime": 128,
