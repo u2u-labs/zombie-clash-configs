@@ -47,7 +47,7 @@
   "pools": [
     {
       "name": "poolA",
-      "rate": 0.8,
+      "rate": 0,
       "series": [
         {
           "serie": 1,
@@ -983,7 +983,7 @@
     },
     {
       "name": "poolB",
-      "rate": 0.2,
+      "rate": 1,
       "series": [
         {
           "serie": 1,
@@ -995,55 +995,55 @@
               "modelId": 1,
               "equipmentType": "Hat",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 2,
               "equipmentType": "Hat",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 3,
               "equipmentType": "Hat",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 4,
               "equipmentType": "Hat",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 5,
               "equipmentType": "Hat",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 6,
               "equipmentType": "Hat",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 7,
               "equipmentType": "Hat",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 8,
               "equipmentType": "Hat",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 9,
               "equipmentType": "Hat",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.04
             }
           ]
         },
@@ -1057,55 +1057,55 @@
               "modelId": 1,
               "equipmentType": "Skin",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 2,
               "equipmentType": "Skin",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 3,
               "equipmentType": "Skin",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 4,
               "equipmentType": "Skin",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 5,
               "equipmentType": "Skin",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 6,
               "equipmentType": "Skin",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 7,
               "equipmentType": "Skin",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 8,
               "equipmentType": "Skin",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 9,
               "equipmentType": "Skin",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.04
             }
           ]
         },
@@ -1119,55 +1119,55 @@
               "modelId": 1,
               "equipmentType": "Weapon",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 2,
               "equipmentType": "Weapon",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 3,
               "equipmentType": "Weapon",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 4,
               "equipmentType": "Weapon",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 5,
               "equipmentType": "Weapon",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 6,
               "equipmentType": "Weapon",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 7,
               "equipmentType": "Weapon",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 8,
               "equipmentType": "Weapon",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 9,
               "equipmentType": "Weapon",
               "hero": "ronan",
-              "rate": 0.1111
+              "rate": 0.04
             }
           ]
         },
@@ -1181,55 +1181,55 @@
               "modelId": 1,
               "equipmentType": "Hat",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 2,
               "equipmentType": "Hat",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 3,
               "equipmentType": "Hat",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 4,
               "equipmentType": "Hat",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 5,
               "equipmentType": "Hat",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.04
             },
             {
               "modelId": 6,
               "equipmentType": "Hat",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 7,
               "equipmentType": "Hat",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 8,
               "equipmentType": "Hat",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 9,
               "equipmentType": "Hat",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             }
           ]
         },
@@ -1243,55 +1243,55 @@
               "modelId": 1,
               "equipmentType": "Skin",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 2,
               "equipmentType": "Skin",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 3,
               "equipmentType": "Skin",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 4,
               "equipmentType": "Skin",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 5,
               "equipmentType": "Skin",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.04
             },
             {
               "modelId": 6,
               "equipmentType": "Skin",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 7,
               "equipmentType": "Skin",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 8,
               "equipmentType": "Skin",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 9,
               "equipmentType": "Skin",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             }
           ]
         },
@@ -1305,55 +1305,55 @@
               "modelId": 1,
               "equipmentType": "Weapon",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 2,
               "equipmentType": "Weapon",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 3,
               "equipmentType": "Weapon",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 4,
               "equipmentType": "Weapon",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 5,
               "equipmentType": "Weapon",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.04
             },
             {
               "modelId": 6,
               "equipmentType": "Weapon",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 7,
               "equipmentType": "Weapon",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 8,
               "equipmentType": "Weapon",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 9,
               "equipmentType": "Weapon",
               "hero": "buster",
-              "rate": 0.1111
+              "rate": 0.135
             }
           ]
         },
@@ -1367,55 +1367,55 @@
               "modelId": 1,
               "equipmentType": "Hat",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 2,
               "equipmentType": "Hat",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 3,
               "equipmentType": "Hat",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 4,
               "equipmentType": "Hat",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 5,
               "equipmentType": "Hat",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 6,
               "equipmentType": "Hat",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 7,
               "equipmentType": "Hat",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 8,
               "equipmentType": "Hat",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.04
             },
             {
               "modelId": 9,
               "equipmentType": "Hat",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.075
             }
           ]
         },
@@ -1429,55 +1429,55 @@
               "modelId": 1,
               "equipmentType": "Skin",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 2,
               "equipmentType": "Skin",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 3,
               "equipmentType": "Skin",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 4,
               "equipmentType": "Skin",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 5,
               "equipmentType": "Skin",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 6,
               "equipmentType": "Skin",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 7,
               "equipmentType": "Skin",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 8,
               "equipmentType": "Skin",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.04
             },
             {
               "modelId": 9,
               "equipmentType": "Skin",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.075
             }
           ]
         },
@@ -1491,55 +1491,55 @@
               "modelId": 1,
               "equipmentType": "Weapon",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 2,
               "equipmentType": "Weapon",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 3,
               "equipmentType": "Weapon",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 4,
               "equipmentType": "Weapon",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 5,
               "equipmentType": "Weapon",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 6,
               "equipmentType": "Weapon",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 7,
               "equipmentType": "Weapon",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 8,
               "equipmentType": "Weapon",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.04
             },
             {
               "modelId": 9,
               "equipmentType": "Weapon",
               "hero": "keda",
-              "rate": 0.1111
+              "rate": 0.075
             }
           ]
         },
@@ -1553,55 +1553,55 @@
               "modelId": 1,
               "equipmentType": "Hat",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 2,
               "equipmentType": "Hat",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 3,
               "equipmentType": "Hat",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 4,
               "equipmentType": "Hat",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 5,
               "equipmentType": "Hat",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 6,
               "equipmentType": "Hat",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 7,
               "equipmentType": "Hat",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 8,
               "equipmentType": "Hat",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 9,
               "equipmentType": "Hat",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.04
             }
           ]
         },
@@ -1615,55 +1615,55 @@
               "modelId": 1,
               "equipmentType": "Skin",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 2,
               "equipmentType": "Skin",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 3,
               "equipmentType": "Skin",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 4,
               "equipmentType": "Skin",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 5,
               "equipmentType": "Skin",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 6,
               "equipmentType": "Skin",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 7,
               "equipmentType": "Skin",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 8,
               "equipmentType": "Skin",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 9,
               "equipmentType": "Skin",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.04
             }
           ]
         },
@@ -1677,55 +1677,55 @@
               "modelId": 1,
               "equipmentType": "Weapon",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 2,
               "equipmentType": "Weapon",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 3,
               "equipmentType": "Weapon",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 4,
               "equipmentType": "Weapon",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 5,
               "equipmentType": "Weapon",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 6,
               "equipmentType": "Weapon",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 7,
               "equipmentType": "Weapon",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 8,
               "equipmentType": "Weapon",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 9,
               "equipmentType": "Weapon",
               "hero": "pierre",
-              "rate": 0.1111
+              "rate": 0.04
             }
           ]
         },
@@ -1739,55 +1739,55 @@
               "modelId": 1,
               "equipmentType": "Hat",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 2,
               "equipmentType": "Hat",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 3,
               "equipmentType": "Hat",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 4,
               "equipmentType": "Hat",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 5,
               "equipmentType": "Hat",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 6,
               "equipmentType": "Hat",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 7,
               "equipmentType": "Hat",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.04
             },
             {
               "modelId": 8,
               "equipmentType": "Hat",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 9,
               "equipmentType": "Hat",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             }
           ]
         },
@@ -1801,55 +1801,55 @@
               "modelId": 1,
               "equipmentType": "Skin",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 2,
               "equipmentType": "Skin",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 3,
               "equipmentType": "Skin",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 4,
               "equipmentType": "Skin",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 5,
               "equipmentType": "Skin",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 6,
               "equipmentType": "Skin",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 7,
               "equipmentType": "Skin",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.04
             },
             {
               "modelId": 8,
               "equipmentType": "Skin",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 9,
               "equipmentType": "Skin",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             }
           ]
         },
@@ -1863,55 +1863,55 @@
               "modelId": 1,
               "equipmentType": "Weapon",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 2,
               "equipmentType": "Weapon",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 3,
               "equipmentType": "Weapon",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 4,
               "equipmentType": "Weapon",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 5,
               "equipmentType": "Weapon",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 6,
               "equipmentType": "Weapon",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             },
             {
               "modelId": 7,
               "equipmentType": "Weapon",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.04
             },
             {
               "modelId": 8,
               "equipmentType": "Weapon",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.075
             },
             {
               "modelId": 9,
               "equipmentType": "Weapon",
               "hero": "lucas",
-              "rate": 0.1111
+              "rate": 0.135
             }
           ]
         }
