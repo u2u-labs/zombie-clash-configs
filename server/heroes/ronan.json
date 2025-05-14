@@ -10,7 +10,7 @@
     }
   },
   "attributes": {
-    "maxHp": 2460,
+    "maxHp": 2760,
     "maxEndurance": 100,
     "enduranceRecoveryNeutral": 16,
     "enduranceRecoveryInCombat": 1,
@@ -44,7 +44,7 @@
       "projectileId": null,
       "fullAnimationTime": 1233,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 560,
+      "earlyCancelTime": 540,
       "vfxs": [
         {
           "id": "ronan_combo_0",
@@ -88,7 +88,7 @@
       "projectileId": null,
       "fullAnimationTime": 1283,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 590,
+      "earlyCancelTime": 560,
       "vfxs": [
         {
           "id": "ronan_combo_1",
@@ -132,7 +132,7 @@
       "projectileId": null,
       "fullAnimationTime": 1208,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 650,
+      "earlyCancelTime": 600,
       "vfxs": [
         {
           "id": "ronan_combo_2",
@@ -175,7 +175,7 @@
       "projectileId": null,
       "fullAnimationTime": 2175,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 1400,
+      "earlyCancelTime": 1300,
       "vfxs": [
         {
           "id": "ronan_combo_3",
@@ -219,7 +219,7 @@
       },
       "comboHits": [
         {
-          "damageMultiplier": 3,
+          "damageMultiplier": 2.8,
           "enduranceDamage": 32,
           "dealDamageTime": 700,
           "targetLockTime": 32,

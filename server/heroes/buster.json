@@ -80,7 +80,7 @@
       "projectileId": null,
       "fullAnimationTime": 833,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 470,
+      "earlyCancelTime": 420,
       "pounceTime": 128,
       "vfxs": [
         {
@@ -124,7 +124,7 @@
       "projectileId": null,
       "fullAnimationTime": 933,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 530,
+      "earlyCancelTime": 480,
       "pounceTime": 128,
       "vfxs": [
         {
@@ -168,7 +168,7 @@
       "projectileId": null,
       "fullAnimationTime": 1167,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 1000,
+      "earlyCancelTime": 950,
       "pounceTime": 128,
       "vfxs": [
         {
@@ -185,7 +185,7 @@
       ],
       "shapeType": 1,
       "rectangle": {
-        "range": 6,
+        "range": 5.5,
         "width": 3,
         "forwardOffset": 0
       },
