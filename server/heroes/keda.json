@@ -13,7 +13,7 @@
     }
   },
   "attributes": {
-    "maxHp": 1880,
+    "maxHp": 1800,
     "maxEndurance": 100,
     "enduranceRecoveryNeutral": 16,
     "enduranceRecoveryInCombat": 1,
@@ -204,7 +204,7 @@
       "projectileId": null,
       "fullAnimationTime": 1450,
       "allowEarlyCancel": true,
-      "earlyCancelTime": 900,
+      "earlyCancelTime": 850,
       "vfxs": [
         {
           "id": "keda_combo_2",
