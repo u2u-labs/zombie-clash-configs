@@ -2,7 +2,9 @@
     "session":{
         "autoRefreshInterval":20000
     },
-    "telegramAuthUrl":"https://t.me/layerg_ua_verification_stg_bot?start=login-4-49C29C6B716aAf9fFBDDc548448A7f6dAe187A06",
-    "xAuthUrl":"",
-    "googleAuthUrl":""
+    "authUrls":{
+        "telegram":"https://t.me/layerg_ua_verification_stg_bot?start=login-4-49C29C6B716aAf9fFBDDc548448A7f6dAe187A06",
+        "x":"",
+        "google":""
+    }
 }
